@@ -9,3 +9,11 @@ Requirements
 * GNU make
 * fcpp - https://github.com/bagder/fcpp
 * roffit - https://github.com/bagder/roffit
+
+Steps
+=====
+1. ln -s [libssh2 git repo]/docs .
+
+2. ln -s [libssh2 git repo]/COPYING .
+
+3. make
