@@ -1,0 +1,27 @@
+#include "doctype.t"
+<HTML>
+<HEAD> <TITLE>libssh2 - %cfile%</TITLE>
+#include "css.t"
+</HEAD>
+
+#define LIBSSH2_EXAMPLE
+
+#include "body.t"
+#include "setup.t"
+#include "menu.t"
+
+TITLE(%cfile%)
+BOXTOP
+<table><tr valign="top"><td>
+#include "%rawfile%"
+</td><td>
+SUBTITLE(All Examples)
+
+#include "allex.t"
+</td></tr></table>
+<p>
+ You'll also find all examples in the distribution archive, in the
+ <b>examples/simple</b> directory.
+BOXBOT
+
+#include "footer.t"

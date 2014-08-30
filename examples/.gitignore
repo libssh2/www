@@ -1,0 +1,5 @@
+*.t
+*.et
+*.html
+Makefile.examples
+Makefile.exhtml
