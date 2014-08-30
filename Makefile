@@ -1,7 +1,7 @@
-ROOT=/home/dast/libssh2_html
+ROOT=.
 MAINPARTS= $(ROOT)/doctype.t $(ROOT)/body.t $(ROOT)/footer.t \
 	$(ROOT)/setup.t menu.t $(ROOT)/css.t
-ACTION=@echo preprocessing $@; rm -f $@; $(HOME)/bin/cpp -WWW -Uunix -H -I$(ROOT) -C -V -LL $< $@; chmod a-w+r $@
+ACTION=@echo preprocessing $@; rm -f $@; fcpp -WWW -Uunix -H -I$(ROOT) -C -V -LL $< $@;
 TXT2PLAIN = /home/dast/bin/txt2plain.pl
 
 all:	index.html mailhead.html cvs.html docs.html mailtop.html mailbot.html \
@@ -27,7 +27,7 @@ license.txt: COPYING
 docs.html: docs.t $(MAINPARTS) docmenu.t
 	$(ACTION)
 
-cvs.html: cvs.t cvs.raw $(MAINPARTS)
+cvs.html: cvs.t $(MAINPARTS)
 	$(ACTION)
 
 source.html: source.t $(MAINPARTS)
