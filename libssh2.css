@@ -1,0 +1,112 @@
+BODY {
+ background-color: white; 
+ color: black;
+}
+
+.title {
+ background-color: #e0e0ff; 
+ font-family: arial, helvetica, ariel, sans-serif;
+ color: black;
+ font-size: 150%;
+ font-weight: bold;
+}
+
+.subtitle {
+ background-color: #e0e0ff; 
+ font-family: arial, helvetica, ariel, sans-serif;
+ color: #000000;
+ font-size: 120%;
+ padding-left: 5px;
+}
+
+P {
+ font-family: sans-serif;
+ color: black;
+ padding-left: 5px;
+}
+
+LI {
+ font-family: sans-serif;
+ color: black;
+}
+
+.big {
+ font-size: 120%;
+ vertical-align: baseline;
+}
+
+.address {
+ font-style: italic;
+}
+
+.alert {
+ font-size: 120%;
+ background-color: #f0f000;
+ color: black;
+ border-style: solid;
+ border-width: thin;
+ border-color: black;
+}
+
+.grey {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.box {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+  padding: 2px 2px 2px 2px;
+}
+
+.boxnarrow {
+  width: 600px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+  padding: 2px 2px 2px 2px;
+}
+
+pre.quote {
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  padding: 2px 2px 2px 2px;
+
+  background-color: #f0f0ff; 
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* menu for the mi4/sansa pages */
+div.topmenu {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4px 4px 4px 4px;
+}
+
+.odd {
+  background-color: #e0e0e0;
+}
+
+.funcmenu {
+  border: outset 1px #000000;
+  float: right;
+  background: #ffffff;
+  padding: 4px 4px 4px 4px;
+  font-size: 80%;
+}
+
+.funcmenu a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #003000;
+  padding: 0px 0px 0px 0px;
+}
+
+.funcmenu div {
+  padding: 1px 1px 1px 1px;
+}
+

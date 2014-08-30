@@ -1,0 +1,10 @@
+ROOT=.
+
+MAINPARTS= $(ROOT)/doctype.t body.t footer.t $(ROOT)/setup.t \
+ menu.t Makefile docmenu.t css.t
+OPTS=-WWW -Uunix -H -C -V -I$(ROOT) -LL
+FCPP=/home/dast/bin/fcpp 
+ACTION=$(FCPP) $(OPTS) $< $@
+MAN2HTML=/home/dast/bin/roffit --bare --mandir=docs --hrefdir=.
+
+include doc.mk

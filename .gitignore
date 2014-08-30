@@ -1,0 +1,17 @@
+libssh2*html
+libssh2*raw
+*~
+changes.html
+cvs.html
+cvs.raw
+docs.html
+index.html
+indexbot.html
+indextop.html
+license.html
+mailbot.html
+mailhead.html
+mailtop.html
+menu.html
+snapshots.html
+source.html
