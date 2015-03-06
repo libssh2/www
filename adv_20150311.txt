@@ -1,0 +1,79 @@
+Using `SSH_MSG_KEXINIT` data unbounded
+======================================
+
+Project libssh2 Security Advisory, March 11th 2015 -
+[Permalink](http://www.libssh2.org/adv_20150311.html)
+
+VULNERABILITY
+-------------
+
+When negotiating a new SSH session with a remote server, one of libssh2's
+functions for doing the key exchange (`kex_agree_methods()`) was naively
+reading data from the incoming packet and using it without doing sufficient
+range checks. The `SSH_MSG_KEXINIT` packet arrives to libssh2 with a set of
+strings, sent as a series of LENGTH + DATA pairs. libssh2 would go through the
+list and read the LENGTH field, read the string following the LENGTH and then
+advance the pointer LENGTH bytes in memory and expect to find the next LENGTH
++ DATA pair there. Then move on until seven subsequent strings are taken care
+of. It would naively assume that the (unsigned 32 bit) LENGTH fields were
+valid.
+
+This packet arrives in the negotiating phase so the remote server has not yet
+been deemed to be a known or trusted party.
+
+A malicious attacker could man in the middle a real server and cause libssh2
+using clients to crash (denial of service) or otherwise read and use
+completely unintended memory areas in this process.
+
+There are no known exploits of this flaw at this time.
+
+INFO
+----
+
+The Common Vulnerabilities and Exposures (CVE) project has assigned the name
+CVE-2015-1782 to this issue.
+
+AFFECTED VERSIONS
+-----------------
+
+- Affected versions: all versions to and including 1.4.3
+- Not affected versions: libssh2 >= 1.5.0
+
+libssh2 is used by many applications, but not always advertised as such!
+
+THE SOLUTION
+------------
+
+libssh2 1.5.0 makes sure that the LENGTH fields read from the packet fit
+within the received packet size before attempting to read them, or it fails
+graciously.
+
+A patch for this problem is available at:
+
+    http://www.libssh2.org/CVE-2015-1782.patch
+
+RECOMMENDATIONS
+---------------
+
+We suggest you take one of the following actions immediately, in order of
+preference:
+
+A - Upgrade to libssh2 1.5.0
+
+B - Apply the patch and rebuild libssh2
+
+TIME LINE
+---------
+
+It was first reported to the libssh2 project on January 25 2015. We contacted
+distros@openwall on March 6.
+
+libssh2 1.5.0 was released on March 11th 2015, coordinated with the
+publication of this advisory.
+
+CREDITS
+-------
+
+Reported by Mariusz Ziulek. Patch written by Mariusz Ziulek and Daniel Stenberg,
+
+Thanks a lot!

@@ -6,7 +6,7 @@ TXT2PLAIN = /home/dast/bin/txt2plain.pl
 
 all:	index.html mailhead.html cvs.html docs.html mailtop.html mailbot.html \
   indextop.html indexbot.html menu.html changes.html source.html \
-  libssh2-vs-libssh.html license.html
+  libssh2-vs-libssh.html license.html adv_20150311.html
 	cd examples && make
 
 index.html: index.t $(MAINPARTS)
@@ -49,6 +49,12 @@ indextop.html: indextop.t $(MAINPARTS)
 
 indexbot.html: indexbot.t $(MAINPARTS)
 	$(ACTION)
+
+adv_20150311.html: adv_20150311.t adv_20150311.gen $(MAINPARTS)
+	$(ACTION)
+
+adv_20150311.gen: adv_20150311.txt
+	markdown $< >$@
 
 clean:
 	find . -name "*~" -exec rm {} \;
