@@ -3,7 +3,7 @@
 my $manpage="http://www.libssh2.org/";
 
 my $template="_example-templ.html";
-my $dir="/home/dast/src/daily-libssh2/libssh2/example";
+my $dir="../git-source/example";
 
 opendir(DIR, $dir) || die "can't opendir $dir: $!";
 my @samps = grep { /\.c\z/ && -f "$dir/$_" } readdir(DIR);
