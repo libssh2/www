@@ -14,6 +14,6 @@ Steps
 =====
 1. ln -s [libssh2 git repo]/docs .
 
-2. ln -s [libssh2 git repo]/COPYING .
+2. ln -s [libssh2 git repo] git-source
 
 3. make
