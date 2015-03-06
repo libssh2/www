@@ -20,9 +20,8 @@ changes.html: changes.t $(MAINPARTS)
 
 license.html: license.t $(MAINPARTS) license.txt
 	$(ACTION)
-license.txt: COPYING
+license.txt: git-source/COPYING
 	$(TXT2PLAIN) < $< > $@
-
 
 docs.html: docs.t $(MAINPARTS) docmenu.t
 	$(ACTION)
