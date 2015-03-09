@@ -47,7 +47,7 @@ SUBTITLE(Download)
 
 <li> <a href="snapshots/">Daily snapshots</a>
 
-<li> <tt>git clone git://git.libssh2.org/libssh2.git</tt> <a href="http://git.libssh2.org/">browse the git repo</a>
+<li> <tt>git clone git@github.com:bagder/libssh2.git</tt> <a href="https://github.com/bagder/libssh2">browse the repo</a>
 
 <li> <a href="download/">Older releases</a>
 
