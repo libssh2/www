@@ -8,6 +8,85 @@ HEAD(libssh2)
 TITLE(Changelog)
 BOXTOP
 
+<a name="1.5.0"></a>
+SUBTITLE(Version 1.5.0 - March 11 2015)
+<p> <a href="download/libssh2-1.5.0.tar.gz">libssh2 1.5.0</a> <a
+href="download/libssh2-1.5.0.tar.gz.asc">GPG sig</a> (685712 bytes)
+<p>
+<b>Changes:</b>
+<ul>
+ <li> Added Windows Cryptography API: Next Generation based backend
+</ul>
+<p>
+<b>Bug fixes:</b>
+<ul>
+ <li> Security Advisory: Using `SSH_MSG_KEXINIT` data unbounded, <a href="adv_20150311.html">CVE-2015-1782</a>
+ <li> missing _libssh2_error in _libssh2_channel_write
+ <li> knownhost: Fix DSS keys being detected as unknown.
+ <li> knownhost: Restore behaviour of `libssh2_knownhost_writeline` with short buffer.
+ <li> libssh2.h: on Windows, a socket is of type SOCKET, not int
+ <li> libssh2_priv.h: a 1 bit bit-field should be unsigned
+ <li> windows build: do not export externals from static library
+ <li> Fixed two potential use-after-frees of the payload buffer
+ <li> Fixed a few memory leaks in error paths
+ <li> userauth: Fixed an attempt to free from stack on error
+ <li> agent_list_identities: Fixed memory leak on OOM
+ <li> knownhosts: Abort if the hosts buffer is too small
+ <li> sftp_close_handle: ensure the handle is always closed
+ <li> channel_close: Close the channel even in the case of errors
+ <li> docs: added missing libssh2_session_handshake.3 file
+ <li> docs: fixed a bunch of typos
+ <li> userauth_password: pass on the underlying error code
+ <li> _libssh2_channel_forward_cancel: accessed struct after free
+ <li> _libssh2_packet_add: avoid using uninitialized memory
+ <li> _libssh2_channel_forward_cancel: avoid memory leaks on error
+ <li> _libssh2_channel_write: client spins on write when window full
+ <li> windows build: fix build errors
+ <li> publickey_packet_receive: avoid junk in returned pointers
+ <li> channel_receive_window_adjust: store windows size always
+ <li> userauth_hostbased_fromfile: zero assign to avoid uninitialized use
+ <li> configure: change LIBS not LDFLAGS when checking for libs
+ <li> agent_connect_unix: make sure there's a trailing zero
+ <li> MinGW build: Fixed redefine warnings.
+ <li> sftpdir.c: added authentication method detection.
+ <li> Watcom build: added support for WinCNG build.
+ <li> configure.ac: replace AM_CONFIG_HEADER with AC_CONFIG_HEADERS
+ <li> sftp_statvfs: fix for servers not supporting statfvs extension
+ <li> knownhost.c: use LIBSSH2_FREE macro instead of free
+ <li> Fixed compilation using mingw-w64
+ <li> knownhost.c: fixed that 'key_type_len' may be used uninitialized
+ <li> configure: Display individual crypto backends on separate lines
+ <li> examples on Windows: check for WSAStartup return code
+ <li> examples on Windows: check for socket return code
+ <li> agent.c: check return code of MapViewOfFile
+ <li> kex.c: fix possible NULL pointer de-reference with session->kex
+ <li> packet.c: fix possible NULL pointer de-reference within listen_state
+ <li> tests on Windows: check for WSAStartup return code
+ <li> userauth.c: improve readability and clarity of for-loops
+ <li> examples on Windows: use native SOCKET-type instead of int
+ <li> packet.c: i < 256 was always true and i would overflow to 0
+ <li> kex.c: make sure mlist is not set to NULL
+ <li> session.c: check return value of session_nonblock in debug mode
+ <li> session.c: check return value of session_nonblock during startup
+ <li> userauth.c: make sure that sp_len is positive and avoid overflows
+ <li> knownhost.c: fix use of uninitialized argument variable wrote
+ <li> openssl: initialise the digest context before calling EVP_DigestInit()
+ <li> libssh2_agent_init: init ->fd to LIBSSH2_INVALID_SOCKET
+ <li> configure.ac: Add zlib to Requires.private in libssh2.pc if using zlib
+ <li> configure.ac: Rework crypto library detection
+ <li> configure.ac: Reorder --with-* options in --help output
+ <li> configure.ac: Call zlib zlib and not libz in text but keep option names
+ <li> Fix non-autotools builds: Always define the LIBSSH2_OPENSSL CPP macro
+ <li> sftp: seek: Don't flush buffers on same offset
+ <li> sftp: statvfs: Along error path, reset the correct 'state' variable.
+ <li> sftp: Add support for fsync (OpenSSH extension).
+ <li> _libssh2_channel_read: fix data drop when out of window
+ <li> comp_method_zlib_decomp: Improve buffer growing algorithm
+ <li> _libssh2_channel_read: Honour window_size_initial
+ <li> window_size: redid window handling for flow control reasons
+ <li> knownhosts: handle unknown key types
+</ul>
+
 <a name="1.4.3"></a>
 SUBTITLE(Version 1.4.3 - November 27 2012)
 <p> <a href="download/libssh2-1.4.3.tar.gz">libssh2 1.4.3</a> <a
