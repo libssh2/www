@@ -11,7 +11,7 @@ BOXTOP
 <a name="1.5.0"></a>
 SUBTITLE(Version 1.5.0 - March 11 2015)
 <p> <a href="download/libssh2-1.5.0.tar.gz">libssh2 1.5.0</a> <a
-href="download/libssh2-1.5.0.tar.gz.asc">GPG sig</a> (685712 bytes)
+href="download/libssh2-1.5.0.tar.gz.asc">GPG sig</a>
 <p>
 <b>Changes:</b>
 <ul>
