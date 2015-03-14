@@ -33,7 +33,7 @@ SUBTITLE(Capabilities and Features)
  <li> <b>Thread-safe</b>: just don't share handles simultaneously
  <li> <b>Non-blocking</b>: it can be used both blocking and non-blocking
  <li> <b>Your sockets</b>: the app hands over the socket, calls select() etc.
- <li> <b>OpenSSL</b> or <b>gcrypt</b>: builds with either
+ <li> <b>OpenSSL</b>, <b>Libgcrypt</b> or <b>WinCNG</b> (native since Windows Vista): builds with either
 </ul>
 
 SUBTITLE(Download)
