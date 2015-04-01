@@ -2,7 +2,7 @@ ROOT=.
 MAINPARTS= $(ROOT)/doctype.t $(ROOT)/body.t $(ROOT)/footer.t \
 	$(ROOT)/setup.t menu.t $(ROOT)/css.t
 ACTION=@echo preprocessing $@; rm -f $@; fcpp -WWW -Uunix -H -I$(ROOT) -C -V -LL $< $@;
-TXT2PLAIN = /home/dast/bin/txt2plain.pl
+TXT2PLAIN = perl txt2plain.pl
 
 all:	index.html mailhead.html cvs.html docs.html mailtop.html mailbot.html \
   indextop.html indexbot.html menu.html changes.html source.html \
