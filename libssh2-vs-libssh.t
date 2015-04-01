@@ -29,24 +29,24 @@ SUBTITLE(libssh2 1.2.7)
  <li> autotools-based building
 </ul>
 
-SUBTITLE(<a href="http://www.libssh.org/">libssh</a> 0.4.x)
+SUBTITLE(<a href="http://www.libssh.org/">libssh</a> 0.6.x)
 <p>
 <ul>
  <li> LGPL licensed
- <li> Has a blocking API, although parts can be used non-blocking
+ <li> Blocking and non-blocking API, callback based server implentation.
  <li> client-side and server-side support
- <li> API that still changes
- <li> name space pollution - uses lots of (generic) prefixes like 'ssh',
-      'channel', 'buffer', 'string' (and some even without prefix)
+ <li> Event model based on poll(2), or a poll(2)-emulation.
+ <li> API that still changes, but rarely
  <li> C99 support required
  <li> optional SSH version 1 support
  <li> doxygen-generated docs
  <li> CMake-based building
+ <li> Key exchange supports curve25519-sha256@libssh.org and ecdh-sha2-nistp256
+ <li> Hostkey Types support ecdsa-sha2-nistp256
+ <li> Channels support also keepalive@openssh.com and auth-agent-req@openssh.com
+ <li> Support for GSSAPI (Keberos authentication)
+ <li> Support for <a href="https://www.libssh.org/2013/11/03/openssh-introduces-curve25519-sha256libssh-org-key-exchange/">curve25519-sha256@libssh.org</a>
 </ul>
-
-<p> (It could be noted that libssh's primary development is nowadays done in
-their 0.5 branch and once that becomes their release branch we'll update this
-comparison)
 
 SUBTITLE(Feature by feature)
 <p>
@@ -64,7 +64,7 @@ SUBTITLE(Feature by feature)
 <tr>
 <td>Non-blocking API</td>
 <td>everything</td>
-<td>parts</td>
+<td>Event model based on poll(2), or a poll(2)-emulation</td>
 </tr>
 
 <tr>
@@ -74,9 +74,33 @@ SUBTITLE(Feature by feature)
 </tr>
 
 <tr>
+<td>GSSAPI authentication (Kerberos)</td>
+<td>no</td>
+<td>yes</td>
+</tr>
+
+<tr>
+<td>Eliptic Curve Key Exchange</td>
+<td>no</td>
+<td>yes</td>
+</tr>
+
+<tr>
+<td>Eliptic Curve Hostkeys</td>
+<td>no</td>
+<td>yes</td>
+</tr>
+
+<tr>
+<td>Automated test cases with nightly tests</td>
+<td>no</td>
+<td>yes</td>
+</tr>
+
+<tr>
 <td>Stable API</td>
 <td>yes</td>
-<td>no</td>
+<td>mostly</td>
 </tr>
 
 <tr>
@@ -88,13 +112,25 @@ SUBTITLE(Feature by feature)
 <tr>
 <td>strict namespace</td>
 <td>yes</td>
-<td>no</td>
+<td>no (still maintains backward compatibility)</td>
 </tr>
 
 <tr>
 <td>man pages for all functions</td>
 <td>yes</td>
 <td>no</td>
+</tr>
+
+<tr>
+<td>Doxygen documentation for all functions</td>
+<td>no</td>
+<td>yes</td>
+</tr>
+
+<tr>
+<td>Tutorial</td>
+<td>no</td>
+<td>yes</td>
 </tr>
 
 <tr>
