@@ -1,4 +1,5 @@
 *.et
+*.t
 *.html
 Makefile.examples
 Makefile.exhtml
