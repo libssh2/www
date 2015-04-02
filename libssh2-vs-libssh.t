@@ -15,18 +15,19 @@ BOXTOP
 
 <p> Here's an attempt to put some light on the differences between them.
 
-SUBTITLE(libssh2 1.2.7)
+SUBTITLE(libssh2 1.5.x)
 <p>
 <ul>
  <li> <a href="/license.html">BSD licensed</a>
  <li> Can set the API to either <a href="/libssh2_session_set_blocking.html">blocking or non-blocking</a>
  <li> client-side only
  <li> stable API
- <li> strict name space - everything is in libssh2_* something
+ <li> strict name space - everything is in libssh2_*
  <li> C89 compatible
  <li> SSH v2 only (not v1)
  <li> all 100+ functions are documented in their own <a href="/docs.html">man pages</a>
  <li> autotools-based building
+ <li> supports Windows native, OpenSSL or gcrypt as backends
 </ul>
 
 SUBTITLE(<a href="http://www.libssh.org/">libssh</a> 0.6.x)
@@ -46,6 +47,7 @@ SUBTITLE(<a href="http://www.libssh.org/">libssh</a> 0.6.x)
  <li> Channels support also keepalive@openssh.com and auth-agent-req@openssh.com
  <li> Support for GSSAPI (Keberos authentication)
  <li> Support for <a href="https://www.libssh.org/2013/11/03/openssh-introduces-curve25519-sha256libssh-org-key-exchange/">curve25519-sha256@libssh.org</a>
+ <li> supports OpenSSL or gcrypt as backends
 </ul>
 
 SUBTITLE(Feature by feature)
@@ -62,19 +64,13 @@ SUBTITLE(Feature by feature)
 </tr>
 
 <tr>
-<td>Non-blocking API</td>
-<td>everything</td>
-<td>Event model based on poll(2), or a poll(2)-emulation</td>
-</tr>
-
-<tr>
-<td>Server-side supported</td>
+<td>Server-side support</td>
 <td>no</td>
 <td>yes</td>
 </tr>
 
 <tr>
-<td>GSSAPI authentication (Kerberos)</td>
+<td>GSSAPI authentication</td>
 <td>no</td>
 <td>yes</td>
 </tr>
@@ -112,7 +108,7 @@ SUBTITLE(Feature by feature)
 <tr>
 <td>strict namespace</td>
 <td>yes</td>
-<td>no (still maintains backward compatibility)</td>
+<td>no</td>
 </tr>
 
 <tr>
@@ -144,7 +140,6 @@ SUBTITLE(Feature by feature)
 <td>Autotools</td>
 <td>CMake</td>
 </tr>
-
 
 </table>
 
