@@ -21,15 +21,16 @@ SUBTITLE(Capabilities and Features)
  <li> <b>Hostkey Types</b>: ssh-rsa, ssh-dss 
  <li> <b>Ciphers</b>: aes256-cbc (rijndael-cbc@lysator.liu.se), aes192-cbc,
   aes128-cbc, 3des-cbc, blowfish-cbc, cast128-cbc, arcfour, none
- <li> <b>Compression Schemes</b>: zlib, none
+ <li> <b>Compression Schemes</b>: zlib, zlib@openssh.com, none
  <li> <b>MAC hashes</b>: hmac-sha1, hmac-sha1-96, hmac-md5, hmac-md5-96,
   hmac-ripemd160 (hmac-ripemd160@openssh.com), none
  <li> <b>Authentication</b>: none, password, public-key, hostbased,
   keyboard-interactive
  <li> <b>Channels</b>: shell, exec (incl. SCP wrapper), direct-tcpip, subsystem
  <li> <b>Global Requests</b>: tcpip-forward
- <li> <b>Channel Requests</b>: x11, pty
+ <li> <b>Channel Requests</b>: x11, pty, exit-signal, keepalive@openssh.com
  <li> <b>Subsystems</b>: sftp(version 3), publickey(version 2)
+ <li> <b>SFTP</b>: statvfs@openssh.com, fstatvfs@openssh.com
  <li> <b>Thread-safe</b>: just don't share handles simultaneously
  <li> <b>Non-blocking</b>: it can be used both blocking and non-blocking
  <li> <b>Your sockets</b>: the app hands over the socket, calls select() etc.
