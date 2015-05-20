@@ -102,7 +102,6 @@ href="http://cool.haxx.se/mailman/listinfo/libssh2-changes">libssh2-changes</a>
 to get a mail for every git push made to the master repo.
 
 <li> <a href="http://gitstats.josefsson.org/libssh2/">Simon's git stats</a>
-<li> <a href="http://autobuild.josefsson.org/libssh2/">Simon's autobuilds</a>
 </ul>
 
 #if 0
