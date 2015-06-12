@@ -46,6 +46,8 @@ SUBTITLE(Download)
  <a href="download/libssh2-1.6.0.tar.gz.asc">[GPG sig]</a>
  <a href="/changes.html">Changes</a>
 
+<li> Alternative HTTPS <a href="https://github.com/libssh2/libssh2/releases/download/libssh2-1.6.0/libssh2-1.6.0.tar.gz">libssh2 1.6.0</a> download from github.
+
 <li> <a href="snapshots/">Daily snapshots</a>
 
 <li> <tt>git clone git@github.com:libssh2/libssh2.git</tt> <a href="https://github.com/libssh2/libssh2">browse the code repo</a>
