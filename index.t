@@ -41,9 +41,9 @@ SUBTITLE(Download)
 <p>
 <ul>
 
-<li> The latest release: <a href="download/libssh2-1.5.0.tar.gz">libssh2
-1.5.0</a> from March 11th 2015
- <a href="download/libssh2-1.5.0.tar.gz.asc">[GPG sig]</a>
+<li> The latest release: <a href="download/libssh2-1.6.0.tar.gz">libssh2
+1.6.0</a> from June 12th 2015
+ <a href="download/libssh2-1.6.0.tar.gz.asc">[GPG sig]</a>
  <a href="/changes.html">Changes</a>
 
 <li> <a href="snapshots/">Daily snapshots</a>
@@ -78,7 +78,7 @@ SUBTITLE(Support)
 
 <li> <b>IRC</b>: irc.freenode.org #libssh2
 
-<li> <b>Bugs:</b> <a href="http://trac.libssh2.org/">libssh2 bug tracker</a>
+<li> <b>Bugs:</b> The <a href="http://trac.libssh2.org/">old bug tracker</a> <a href="https://github.com/libssh2/libssh2/issues">new bug tracker</a>
 
 </ul>
 

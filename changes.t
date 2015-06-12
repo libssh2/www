@@ -8,6 +8,43 @@ HEAD(libssh2)
 TITLE(Changelog)
 BOXTOP
 
+<a name="1.6.0"></a>
+SUBTITLE(Version 1.6.0 - June 12 2015)
+<p> <a href="download/libssh2-1.6.0.tar.gz">libssh2 1.6.0</a> <a
+href="download/libssh2-1.6.0.tar.gz.asc">GPG sig</a>
+<p>
+<b>Changes:</b>
+<ul>
+ <li> Added CMake build system
+ <li> Added libssh2_userauth_publickey_frommemory()
+</ul>
+<p>
+<b>Bug fixes:</b>
+<ul>
+ <li> <a href="https://github.com/bagder/libssh2/issues/1">wait_socket: wrong use of difftime()</a>
+ <li> userauth: Fixed prompt text no longer being copied to the prompts struct
+ <li> mingw build: allow to pass custom CFLAGS
+ <li> Let mansyntax.sh work regardless of where it is called from
+ <li> Init HMAC_CTX before using it
+ <li> direct_tcpip: Fixed channel write
+ <li> WinCNG: fixed backend breakage
+ <li> OpenSSL: caused by introducing libssh2_hmac_ctx_init
+ <li> userauth.c: fix possible dereferences of a null pointer
+ <li> wincng: Added explicit clear memory feature to WinCNG backend
+ <li> openssl.c: fix possible segfault in case EVP_DigestInit fails
+ <li> wincng: fix return code of libssh2_md5_init()
+ <li> kex: do not ignore failure of libssh2_sha1_init()
+ <li> <a href="https://trac.libssh2.org/ticket/244">scp: fix that scp_send may transmit not initialised memory</a>
+ <li> scp.c: improved command length calculation
+ <li> nonblocking examples: fix warning about unused tvdiff on Mac OS X
+ <li> configure: make clear-memory default but WARN if backend unsupported
+ <li> OpenSSL: Enable use of OpenSSL that doesn't have DSA
+ <li> OpenSSL: Use correct no-blowfish #define
+ <li> <a href="https://trac.libssh2.org/ticket/168">kex: fix libgcrypt memory leaks of bignum</a>
+ <li> libssh2_channel_open: more detailed error message
+ <li> wincng: fixed memleak in (block) cipher destructor
+</ul>
+
 <a name="1.5.0"></a>
 SUBTITLE(Version 1.5.0 - March 11 2015)
 <p> <a href="download/libssh2-1.5.0.tar.gz">libssh2 1.5.0</a> <a
