@@ -19,10 +19,12 @@ SUBTITLE(Capabilities and Features)
  <li> <b>Key Exchange Methods</b>: diffie-hellman-group1-sha1,
   diffie-hellman-group14-sha1, diffie-hellman-group-exchange-sha1
  <li> <b>Hostkey Types</b>: ssh-rsa, ssh-dss 
- <li> <b>Ciphers</b>: aes256-cbc (rijndael-cbc@lysator.liu.se), aes192-cbc,
-  aes128-cbc, 3des-cbc, blowfish-cbc, cast128-cbc, arcfour, none
+ <li> <b>Ciphers</b>: aes256-ctr, aes192-ctr, aes128-ctr,
+  aes256-cbc (rijndael-cbc@lysator.liu.se), aes192-cbc,
+  aes128-cbc, 3des-cbc, blowfish-cbc, cast128-cbc, arcfour, arcfour128, none
  <li> <b>Compression Schemes</b>: zlib, zlib@openssh.com, none
- <li> <b>MAC hashes</b>: hmac-sha1, hmac-sha1-96, hmac-md5, hmac-md5-96,
+ <li> <b>MAC hashes</b>: hmac-sha2-256, hmac-sha2-512,
+  hmac-sha1, hmac-sha1-96, hmac-md5, hmac-md5-96,
   hmac-ripemd160 (hmac-ripemd160@openssh.com), none
  <li> <b>Authentication</b>: none, password, public-key, hostbased,
   keyboard-interactive
