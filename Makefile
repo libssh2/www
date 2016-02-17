@@ -6,7 +6,7 @@ TXT2PLAIN = perl txt2plain.pl
 
 all:	index.html mailhead.html cvs.html docs.html mailtop.html mailbot.html \
   indextop.html indexbot.html menu.html changes.html source.html \
-  libssh2-vs-libssh.html license.html adv_20150311.html
+  libssh2-vs-libssh.html license.html adv_20150311.html adv_20160223.html
 	cd examples && make
 
 index.html: index.t $(MAINPARTS)
@@ -54,6 +54,12 @@ adv_20150311.html: adv_20150311.t adv_20150311.gen $(MAINPARTS)
 	$(ACTION)
 
 adv_20150311.gen: adv_20150311.txt
+	markdown $< >$@
+
+adv_20160223.html: adv_20160223.t adv_20160223.gen $(MAINPARTS)
+	$(ACTION)
+
+adv_20160223.gen: adv_20160223.txt
 	markdown $< >$@
 
 clean:
