@@ -89,17 +89,11 @@ SUBTITLE(Support)
 SUBTITLE(Development)
 
 <p>
-<div style="float: right;">
-<SCRIPT type='text/javascript' language='JavaScript' src='http://www.ohloh.net/projects/5700;badge_js'></SCRIPT>
-</div>
 
 <ul>
-#if 0
-<li> <a href="/cvs.html">Recent CVS activity</a>
-#endif
 <li> The <a
 href="http://cool.haxx.se/mailman/listinfo/libssh2-devel">libssh2-devel
-mailing list subscription place</a>
+mailing list</a>
 
 <li> Subscribe to <a
 href="http://cool.haxx.se/mailman/listinfo/libssh2-changes">libssh2-changes</a>
@@ -107,11 +101,6 @@ to get a mail for every git push made to the master repo.
 
 <li> <a href="http://gitstats.josefsson.org/libssh2/">Simon's git stats</a>
 </ul>
-
-#if 0
-<p>
- <a href="http://sourceforge.net/projects/libssh2"><img border="0" src="http://sflogo.sourceforge.net/sflogo.php?group_id=125852&amp;type=11" width="120" height="30" alt="Get libssh2 at SourceForge.net. Fast, secure and Free Open Source software downloads" /></a>
-#endif
 
 BOXBOT
 
