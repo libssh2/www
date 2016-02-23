@@ -8,6 +8,53 @@ HEAD(libssh2)
 TITLE(Changelog)
 BOXTOP
 
+<a name="1.7.0"></a>
+SUBTITLE(Version 1.7.0 - February 23 2016)
+<p> <a href="download/libssh2-1.7.0.tar.gz">libssh2 1.7.0</a> <a
+href="download/libssh2-1.7.0.tar.gz.asc">GPG sig</a>
+<p>
+<b>Changes:</b>
+<ul>
+ <li> libssh2_session_set_last_error: Add function
+ <li> mac: Add support for HMAC-SHA-256 and HMAC-SHA-512
+ <li> WinCNG: support for SHA256/512 HMAC
+ <li> kex: Added diffie-hellman-group-exchange-sha256 support
+ <li> OS/400 crypto library QC3 support
+</ul>
+<b>Bug fixes:</b>
+<ul>
+ <li> diffie_hellman_sha256: convert bytes to bits
+   <a href="https://www.libssh2.org/adv_20160223.html">CVE-2016-0787</a>
+ <li> SFTP: Increase speed and datasize in SFTP read
+ <li> openssl: make libssh2_sha1 return error code
+ <li> openssl: fix memleak in _libssh2_dsa_sha1_verify()
+ <li> cmake: include CMake files in the release tarballs
+ <li> Fix builds with Visual Studio 2015
+ <li> hostkey.c: Fix compiling error when OPENSSL_NO_MD5 is defined
+ <li> GNUmakefile: add support for LIBSSH2_LDFLAG_EXTRAS
+ <li> GNUmakefile: add -m64 CFLAGS when targeting mingw64
+ <li> kex: free server host key before allocating it (again)
+ <li> SCP: add libssh2_scp_recv2 to support large (> 2GB) files on windows
+ <li> channel: Detect bad usage of libssh2_channel_process_startup
+ <li> userauth: Fix off by one error when reading public key file
+ <li> kex: removed dupe entry from libssh2_kex_methods
+ <li> _libssh2_error: Support allocating the error message
+ <li> hostkey: fix invalid memory access if libssh2_dsa_new fails
+ <li> hostkey: align code path of ssh_rsa_init to ssh_dss_init
+ <li> libssh2.pc.in: fix the output of pkg-config --libs
+ <li> wincng: fixed possible memory leak in _libssh2_wincng_hash
+ <li> wincng: fixed _libssh2_wincng_hash_final return value
+ <li> add OpenSSL 1.1.0-pre2 compatibility
+ <li> agent_disconnect_unix: unset the agent fd after closing it
+ <li> sftp: stop reading when buffer is full
+ <li> sftp: Send at least one read request before reading
+ <li> sftp: Don't return EAGAIN if data was written to buffer
+ <li> sftp: Check read packet file offset
+ <li> configure: build "silent" if possible
+ <li> openssl: add OpenSSL 1.1.0-pre3-dev compatibility
+ <li> GNUmakefile: list system libs after user libs
+</ul>
+
 <a name="1.6.0"></a>
 SUBTITLE(Version 1.6.0 - June 12 2015)
 <p> <a href="download/libssh2-1.6.0.tar.gz">libssh2 1.6.0</a> <a

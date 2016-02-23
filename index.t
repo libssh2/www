@@ -43,16 +43,14 @@ SUBTITLE(Download)
 <p>
 <ul>
 
-<li> The latest release: <a href="download/libssh2-1.6.0.tar.gz">libssh2
-1.6.0</a> from June 12th 2015
- <a href="download/libssh2-1.6.0.tar.gz.asc">[GPG sig]</a>
+<li> The latest release: <a href="download/libssh2-1.7.0.tar.gz">libssh2
+1.7.0</a> from February 23rd 2016
+ <a href="download/libssh2-1.7.0.tar.gz.asc">[GPG sig]</a>
  <a href="/changes.html">Changes</a>
-
-<li> Alternative HTTPS <a href="https://github.com/libssh2/libssh2/releases/download/libssh2-1.6.0/libssh2-1.6.0.tar.gz">libssh2 1.6.0</a> download from github.
 
 <li> <a href="snapshots/">Daily snapshots</a>
 
-<li> <tt>git clone git@github.com:libssh2/libssh2.git</tt> <a href="https://github.com/libssh2/libssh2">browse the code repo</a>
+<li> <tt>git clone https://github.com:libssh2/libssh2.git</tt> <a href="https://github.com/libssh2/libssh2">browse the code repo</a>
 
 <li> <a href="download/">Older releases</a>
 
