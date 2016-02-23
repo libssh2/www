@@ -2,7 +2,7 @@ Using `SSH_MSG_KEXINIT` data unbounded
 ======================================
 
 Project libssh2 Security Advisory, March 11th 2015 -
-[Permalink](http://www.libssh2.org/adv_20150311.html)
+[Permalink](https://www.libssh2.org/adv_20150311.html)
 
 VULNERABILITY
 -------------
@@ -50,7 +50,7 @@ graciously.
 
 A patch for this problem is available at:
 
-    http://www.libssh2.org/CVE-2015-1782.patch
+    https://www.libssh2.org/CVE-2015-1782.patch
 
 RECOMMENDATIONS
 ---------------

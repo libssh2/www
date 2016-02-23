@@ -2,7 +2,7 @@ Truncated Difffie-Hellman secret length
 =======================================
 
 Project libssh2 Security Advisory, February 23rd 2016 -
-[Permalink](http://www.libssh2.org/adv_20160223.html)
+[Permalink](https://www.libssh2.org/adv_20160223.html)
 
 VULNERABILITY
 -------------
@@ -40,7 +40,7 @@ to number of bits when the internal `_libssh2_bn_rand` function is called.
 
 A patch for this problem is available at:
 
-    http://www.libssh2.org/CVE-2016-0787.patch
+    https://www.libssh2.org/CVE-2016-0787.patch
 
 RECOMMENDATIONS
 ---------------
