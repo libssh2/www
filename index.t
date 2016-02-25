@@ -17,7 +17,7 @@ BOXTOP
 SUBTITLE(Capabilities and Features)
 <ul>
  <li> <b>Key Exchange Methods</b>: diffie-hellman-group1-sha1,
-  diffie-hellman-group14-sha1, diffie-hellman-group-exchange-sha1
+  diffie-hellman-group14-sha1, diffie-hellman-group-exchange-sha1, diffie-hellman-group-exchange-sha256
  <li> <b>Hostkey Types</b>: ssh-rsa, ssh-dss 
  <li> <b>Ciphers</b>: aes256-ctr, aes192-ctr, aes128-ctr,
   aes256-cbc (rijndael-cbc@lysator.liu.se), aes192-cbc,
