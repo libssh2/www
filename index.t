@@ -67,6 +67,7 @@ SUBTITLE(Documentation)
 <ul>
 <li> <a href="/examples/">Examples</a>
 <li> <a href="http://trac.libssh2.org/wiki/FAQ">FAQ</a>
+<li> <a href="security.html">Security</a>
 </ul>
 </td></tr></table>
 
