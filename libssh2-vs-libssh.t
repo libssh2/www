@@ -30,7 +30,7 @@ SUBTITLE(libssh2 1.5.x)
  <li> supports Windows native, OpenSSL or gcrypt as backends
 </ul>
 
-SUBTITLE(<a href="http://www.libssh.org/">libssh</a> 0.6.x)
+SUBTITLE(<a href="http://www.libssh.org/">libssh</a> 0.7.x)
 <p>
 <ul>
  <li> LGPL licensed
@@ -48,6 +48,8 @@ SUBTITLE(<a href="http://www.libssh.org/">libssh</a> 0.6.x)
  <li> Support for GSSAPI (Keberos authentication)
  <li> Support for <a href="https://www.libssh.org/2013/11/03/openssh-introduces-curve25519-sha256libssh-org-key-exchange/">curve25519-sha256@libssh.org</a>
  <li> supports OpenSSL or gcrypt as backends
+ <li> Supports more seucre MACs (hmac-sha2-256, hmac-sha2-512)
+ <li> Support for <a href="http://ed25519.cr.yp.to/">Ed25519 public keys</a>
 </ul>
 
 SUBTITLE(Feature by feature)
@@ -84,6 +86,18 @@ SUBTITLE(Feature by feature)
 <tr>
 <td>Eliptic Curve Hostkeys</td>
 <td>no</td>
+<td>yes</td>
+</tr>
+
+<tr>
+<td>Support for Ed25519 public keys</td>
+<td>no</td>
+<td>yes</td>
+</tr>
+
+<tr>
+<td>More secure Message Authentication Codes (MACs)</td>
+<td>yes</td>
 <td>yes</td>
 </tr>
 
