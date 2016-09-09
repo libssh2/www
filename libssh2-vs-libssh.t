@@ -45,7 +45,7 @@ SUBTITLE(<a href="http://www.libssh.org/">libssh</a> 0.7.x)
     <li>Hostkey Types: ssh-ed25519, ecdsa-sha2-nistp256, ecdsa-sha2-nistp384, ecdsa-sha2-nistp521, ssh-rsa, ssh-dss, ssh-rsa, ssh-dss
     <li>Ciphers: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc (rijndael-cbc@lysator.liu.se), aes192-cbc, aes128-cbc, 3des-cbc, blowfish-cbc, none
     <li>Compression Schemes: zlib, zlib@openssh.com, none
-    <li>MAC hashes: hmac-sha1, none
+    <li>MAC hashes: hmac-sha2-256, hmac-sha2-512, hmac-sha1, none
     <li>Authentication: none, password, public-key, hostbased, keyboard-interactive, gssapi-with-mic
     <li>Channels: shell, exec (incl. SCP wrapper), direct-tcpip, subsystem, auth-agent-req@openssh.com
     <li>Global Requests: tcpip-forward, forwarded-tcpip
