@@ -8,6 +8,33 @@ HEAD(libssh2)
 TITLE(Changelog)
 BOXTOP
 
+<a name="1.8.0"></a>
+SUBTITLE(Version 1.8.0 - October 25 2016)
+<p> <a href="download/libssh2-1.8.0.tar.gz">libssh2 1.8.0</a> <a
+href="download/libssh2-1.8.0.tar.gz.asc">GPG sig</a>
+<p>
+<b>Changes:</b>
+<ul>
+ <li> added a basic dockerised test suite
+ <li> crypto: add support for the mbedTLS backend
+</ul>
+
+<b>Bug fixes:</b>
+<ul>
+ <li> libgcrypt: fixed a NULL pointer dereference on OOM
+ <li> VMS: can't use %zd for off_t format
+ <li> VMS: update vms/libssh2_config.h
+ <li> windows: link with crypt32.lib
+ <li> libssh2_channel_open: speeling error fixed in channel error message
+ <li> msvc: fixed 14 compilation warnings
+ <li> tests: HAVE_NETINET_IN_H was not defined correctly
+ <li> openssl: add OpenSSL 1.1.0 compatibility
+ <li> cmake: Add CLEAR_MEMORY option, analogously to that for autoconf
+ <li> configure: make the --with-* options override the OpenSSL default
+ <li> libssh2_wait_socket: set err_msg on errors
+ <li> libssh2_wait_socket: Fix comparison with api_timeout to use milliseconds
+</ul>
+
 <a name="1.7.0"></a>
 SUBTITLE(Version 1.7.0 - February 23 2016)
 <p> <a href="download/libssh2-1.7.0.tar.gz">libssh2 1.7.0</a> <a
