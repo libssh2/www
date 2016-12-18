@@ -50,7 +50,7 @@ SUBTITLE(Download)
 
 <li> <a href="snapshots/">Daily snapshots</a>
 
-<li> <tt>git clone https://github.com:libssh2/libssh2.git</tt> <a href="https://github.com/libssh2/libssh2">browse the code repo</a>
+<li> <tt>git clone https://github.com/libssh2/libssh2.git</tt> <a href="https://github.com/libssh2/libssh2">browse the code repo</a>
 
 <li> <a href="download/">Older releases</a>
 
