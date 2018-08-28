@@ -18,7 +18,7 @@ BOXTOP
 <p>
 Welcome to the examples section of the web site. This displays online versions
 of all the examples already present in the <a
-href="http://git.libssh2.org/?p=libssh2.git;a=tree;f=example">examples</a>
+href="https://github.com/libssh2/libssh2/tree/master/example">examples</a>
 directory of the release tarballs.
 
 <p>
