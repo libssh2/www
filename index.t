@@ -66,7 +66,6 @@ SUBTITLE(Documentation)
 </td><td>
 <ul>
 <li> <a href="/examples/">Examples</a>
-<li> <a href="http://trac.libssh2.org/wiki/FAQ">FAQ</a>
 <li> <a href="security.html">Security</a>
 </ul>
 </td></tr></table>
@@ -81,7 +80,7 @@ SUBTITLE(Support)
 
 <li> <b>IRC</b>: irc.freenode.org #libssh2
 
-<li> <b>Bugs:</b> The <a href="http://trac.libssh2.org/">old bug tracker</a> <a href="https://github.com/libssh2/libssh2/issues">new bug tracker</a>
+<li> <b>Bugs:</b> <a href="https://github.com/libssh2/libssh2/issues">github issue tracker</a>
 
 </ul>
 
