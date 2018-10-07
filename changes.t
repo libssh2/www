@@ -559,7 +559,7 @@ href="download/libssh2-1.2.tar.gz.asc">GPG sig</a> (532299 bytes)
 <b>Changes:</b>
 <ul>
  <li> we've switched to using git for source code control
- <li> the libssh2-devel mailing list moved to <a href="http://cool.haxx.se/">cool.haxx.se</a>
+ <li> the libssh2-devel mailing list moved to <a href="https://cool.haxx.se/">cool.haxx.se</a>
  <li> libssh2_poll() and libssh2_poll_channel_read() are now deprecated
  <li> a range of libssh2_knownhost_*() functions were added to the API to work
    with OpenSSH style known_hosts files etc

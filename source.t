@@ -9,7 +9,7 @@ TITLE(libssh2 Source Code Activity)
 BOXTOP
 
 Since we switched to <a
-href="http://git.stuge.se/?p=libssh2.git;a=summary">git</a>, this hasn't been
+href="https://github.com/libssh2/libssh2">git</a>, this hasn't been
 made to work yet!
 
 BOXBOT

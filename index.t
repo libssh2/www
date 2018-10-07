@@ -90,14 +90,14 @@ SUBTITLE(Development)
 
 <ul>
 <li> The <a
-href="http://cool.haxx.se/mailman/listinfo/libssh2-devel">libssh2-devel
+href="https://cool.haxx.se/mailman/listinfo/libssh2-devel">libssh2-devel
 mailing list</a>
 
 <li> Subscribe to <a
-href="http://cool.haxx.se/mailman/listinfo/libssh2-changes">libssh2-changes</a>
+href="https://cool.haxx.se/mailman/listinfo/libssh2-changes">libssh2-changes</a>
 to get a mail for every git push made to the master repo.
 
-<li> <a href="http://gitstats.josefsson.org/libssh2/">Simon's git stats</a>
+<li> <a href="https://web.archive.org/web/20160315194208/gitstats.josefsson.org/libssh2/">Simon's git stats</a>
 </ul>
 
 BOXBOT

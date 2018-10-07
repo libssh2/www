@@ -87,13 +87,13 @@ archive(-1);
 
 print <<MOO
 
-<p> <a href="http://cool.haxx.se/mailman/listinfo/libssh2-devel">subscribe
+<p> <a href="https://cool.haxx.se/mailman/listinfo/libssh2-devel">subscribe
  here</a>.
 
 <p> Other archives of this list:
 
 <a
-href="http://dir.gmane.org/gmane.network.ssh.libssh2.devel">gmane.org</a>
+href="https://dir.gmane.org/gmane.network.ssh.libssh2.devel">gmane.org</a>
 
 <p>
  <b>Note:</b> the archive at libssh2.org was broken between September 11th and December 13th 2009!

@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-my $manpage="http://www.libssh2.org/";
+my $manpage="https://www.libssh2.org/";
 
 my $template="_example-templ.html";
 my $dir="../git-source/example";

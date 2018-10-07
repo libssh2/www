@@ -35,7 +35,7 @@ SUBTITLE(libssh2 1.7.0)
     <li>Your sockets: the app hands over the socket, calls select() etc.
     <li>OpenSSL, Libgcrypt or WinCNG (native since Windows Vista): builds with either
 </ul>
-SUBTITLE(<a href="http://www.libssh.org/">libssh</a> 0.7.x)
+SUBTITLE(<a href="https://www.libssh.org/">libssh</a> 0.7.x)
 <p>
 <ul>
     <li>License: <a href="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesser General Public License</a>
