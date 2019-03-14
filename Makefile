@@ -6,10 +6,22 @@ TXT2PLAIN = perl txt2plain.pl
 SRCDIR=git-source
 MARKDOWN=markdown
 
+CVES =						\
+ adv_20150311.html				\
+ adv_20160223.html				\
+ CVE-2019-3855.html				\
+ CVE-2019-3856.html				\
+ CVE-2019-3857.html				\
+ CVE-2019-3858.html				\
+ CVE-2019-3859.html				\
+ CVE-2019-3860.html				\
+ CVE-2019-3861.html				\
+ CVE-2019-3862.html				\
+ CVE-2019-3863.html
+
 all:	index.html mailhead.html cvs.html docs.html mailtop.html mailbot.html \
   indextop.html indexbot.html menu.html changes.html source.html \
-  libssh2-vs-libssh.html license.html adv_20150311.html adv_20160223.html \
-  security.html
+  libssh2-vs-libssh.html license.html security.html $(CVES)
 	cd examples && make
 
 index.html: index.t $(MAINPARTS)
@@ -70,6 +82,61 @@ adv_20160223.html: adv_20160223.t adv_20160223.gen $(MAINPARTS)
 
 adv_20160223.gen: adv_20160223.txt
 	$(MARKDOWN) $< >$@
+
+CVE-2019-3855.html: CVE-2019-3855.t CVE-2019-3855.gen $(MAINPARTS)
+	$(ACTION)
+
+CVE-2019-3855.gen: CVE-2019-3855.md
+	$(MARKDOWN) $< >$@
+
+CVE-2019-3856.html: CVE-2019-3856.t CVE-2019-3856.gen $(MAINPARTS)
+	$(ACTION)
+
+CVE-2019-3856.gen: CVE-2019-3856.md
+	$(MARKDOWN) $< >$@
+
+CVE-2019-3857.html: CVE-2019-3857.t CVE-2019-3857.gen $(MAINPARTS)
+	$(ACTION)
+
+CVE-2019-3857.gen: CVE-2019-3857.md
+	$(MARKDOWN) $< >$@
+
+CVE-2019-3858.html: CVE-2019-3858.t CVE-2019-3858.gen $(MAINPARTS)
+	$(ACTION)
+
+CVE-2019-3858.gen: CVE-2019-3858.md
+	$(MARKDOWN) $< >$@
+
+CVE-2019-3859.html: CVE-2019-3859.t CVE-2019-3859.gen $(MAINPARTS)
+	$(ACTION)
+
+CVE-2019-3859.gen: CVE-2019-3859.md
+	$(MARKDOWN) $< >$@
+
+CVE-2019-3860.html: CVE-2019-3860.t CVE-2019-3860.gen $(MAINPARTS)
+	$(ACTION)
+
+CVE-2019-3860.gen: CVE-2019-3860.md
+	$(MARKDOWN) $< >$@
+
+CVE-2019-3861.html: CVE-2019-3861.t CVE-2019-3861.gen $(MAINPARTS)
+	$(ACTION)
+
+CVE-2019-3861.gen: CVE-2019-3861.md
+	$(MARKDOWN) $< >$@
+
+CVE-2019-3862.html: CVE-2019-3862.t CVE-2019-3862.gen $(MAINPARTS)
+	$(ACTION)
+
+CVE-2019-3862.gen: CVE-2019-3862.md
+	$(MARKDOWN) $< >$@
+
+CVE-2019-3863.html: CVE-2019-3863.t CVE-2019-3863.gen $(MAINPARTS)
+	$(ACTION)
+
+CVE-2019-3863.gen: CVE-2019-3863.md
+	$(MARKDOWN) $< >$@
+
 
 clean:
 	find . -name "*~" -exec rm {} \;
