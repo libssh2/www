@@ -8,6 +8,46 @@ HEAD(libssh2)
 TITLE(Changelog)
 BOXTOP
 
+<a name="1.8.1"></a>
+SUBTITLE(Version 1.8.1 - March 18 2019)
+<p> <a href="download/libssh2-1.8.1.tar.gz">libssh2 1.8.1</a> <a
+href="download/libssh2-1.8.1.tar.gz.asc">GPG sig</a>
+<p>
+<b>Bug fixes:</b>
+<ul>
+
+<li> <a href="https://www.libssh2.org/CVE-2019-3855.html">fixed possible
+   integer overflow when reading a specially crafted packet</a>
+
+<li> <a href="https://www.libssh2.org/CVE-2019-3863.html">fixed possible
+   integer overflow in userauth_keyboard_interactive with a number of
+   extremely long prompt strings </a>
+   
+ <li> <a href="https://www.libssh2.org/CVE-2019-3856.html">fixed possible
+   integer overflow if the server sent an extremely large number of keyboard
+   prompts</a>
+   
+ <li> <a href="https://www.libssh2.org/CVE-2019-3861.html">fixed possible out
+   of bounds read when processing a specially crafted packet </a>
+
+ <li> <a href="https://www.libssh2.org/CVE-2019-3857.html">fixed possible
+   integer overflow when receiving a specially crafted exit signal message
+   channel packet </A>
+   
+ <li> <a href="https://www.libssh2.org/CVE-2019-3862.html">fixed possible out
+   of bounds read when receiving a specially crafted exit status message
+   channel packet</a>
+   
+ <li> <a href="https://www.libssh2.org/CVE-2019-3858.html">fixed possible zero
+   byte allocation when reading a specially crafted SFTP packet </a>
+   
+ <li> <a href="https://www.libssh2.org/CVE-2019-3860.html">fixed possible out
+   of bounds reads when processing specially crafted SFTP packets</a>
+   
+ <li> <a href="https://www.libssh2.org/CVE-2019-3859.html">fixed possible out
+   of bounds reads in _libssh2_packet_require(v) </a>
+</ul>
+
 <a name="1.8.0"></a>
 SUBTITLE(Version 1.8.0 - October 25 2016)
 <p> <a href="download/libssh2-1.8.0.tar.gz">libssh2 1.8.0</a> <a
