@@ -43,9 +43,9 @@ SUBTITLE(Download)
 <p>
 <ul>
 
-<li> The latest release: <a href="download/libssh2-1.8.1.tar.gz">libssh2
-1.8.1</a> from March 18th 2019
- <a href="download/libssh2-1.8.1.tar.gz.asc">[GPG sig]</a>
+<li> The latest release: <a href="download/libssh2-1.8.2.tar.gz">libssh2
+1.8.2</a> from March 25th 2019
+ <a href="download/libssh2-1.8.2.tar.gz.asc">[GPG sig]</a>
  <a href="/changes.html">Changes</a>
 
 <li> <a href="snapshots/">Daily snapshots</a>

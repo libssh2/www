@@ -8,6 +8,17 @@ HEAD(libssh2)
 TITLE(Changelog)
 BOXTOP
 
+<a name="1.8.2"></a>
+SUBTITLE(Version 1.8.2 - March 25 2019)
+<p> <a href="download/libssh2-1.8.2.tar.gz">libssh2 1.8.2</a> <a
+href="download/libssh2-1.8.2.tar.gz.asc">GPG sig</a>
+<p>
+<b>Bug fixes:</b>
+<ul>
+ <li> Fixed the misapplied userauth patch that broke 1.8.1
+ <li> moved the MAX size declarations from the public header
+</ul>
+
 <a name="1.8.1"></a>
 SUBTITLE(Version 1.8.1 - March 18 2019)
 <p> <a href="download/libssh2-1.8.1.tar.gz">libssh2 1.8.1</a> <a
