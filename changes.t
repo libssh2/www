@@ -8,6 +8,43 @@ HEAD(libssh2)
 TITLE(Changelog)
 BOXTOP
 
+<a name="1.9.0"></a>
+SUBTITLE(Version 1.9.0 - June 20 2019)
+<p> <a href="download/libssh2-1.9.0.tar.gz">libssh2 1.9.0</a> <a
+href="download/libssh2-1.9.0.tar.gz.asc">GPG sig</a>
+<p>
+<b>Enhancements and bugfixes</b>
+<ul>
+ <li> adds ECDSA keys and host key support when using OpenSSL
+ <li> adds ED25519 key and host key support when using OpenSSL 1.1.1
+ <li> adds OpenSSH style key file reading
+ <li> adds AES CTR mode support when using WinCNG
+ <li> adds PEM passphrase protected file support for Libgcrypt and WinCNG
+ <li> adds SHA256 hostkey fingerprint
+ <li> adds libssh2_agent_get_identity_path() and libssh2_agent_set_identity_path()
+ <li> adds explicit zeroing of sensitive data in memory
+ <li> adds additional bounds checks to network buffer reads
+ <li> adds the ability to use the server default permissions when creating sftp directories
+ <li> adds support for building with OpenSSL no engine flag
+ <li> adds support for building with LibreSSL
+ <li> increased sftp packet size to 256k
+ <li> fixed oversized packet handling in sftp
+ <li> fixed building with OpenSSL 1.1
+ <li> fixed a possible crash if sftp stat gets an unexpected response
+ <li> fixed incorrect parsing of the KEX preference string value
+ <li> fixed conditional RSA and AES-CTR support
+ <li> fixed a small memory leak during the key exchange process
+ <li> fixed a possible memory leak of the ssh banner string
+ <li> fixed various small memory leaks in the backends
+ <li> fixed possible out of bounds read when parsing public keys from the server
+ <li> fixed possible out of bounds read when parsing invalid PEM files
+ <li> no longer null terminates the scp remote exec command
+ <li> now handle errors when diffie hellman key pair generation fails
+ <li> fixed compiling on Windows with the flag STDCALL=ON
+ <li> improved building instructions
+ <li> improved unit tests
+</ul>
+
 <a name="1.8.2"></a>
 SUBTITLE(Version 1.8.2 - March 25 2019)
 <p> <a href="download/libssh2-1.8.2.tar.gz">libssh2 1.8.2</a> <a
