@@ -35,17 +35,17 @@ SUBTITLE(libssh2 1.7.0)
     <li>Your sockets: the app hands over the socket, calls select() etc.
     <li>OpenSSL, Libgcrypt or WinCNG (native since Windows Vista): builds with either
 </ul>
-SUBTITLE(<a href="https://www.libssh.org/">libssh</a> 0.7.x)
+SUBTITLE(<a href="https://www.libssh.org/">libssh</a> 0.9.x)
 <p>
 <ul>
     <li>License: <a href="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesser General Public License</a>
-    <li>Developped in: C (46021 SLOC), C++ (1181 SLOC), sh (186 SLOC), Python (9 SLOC)
-    <li>NUmber of functions: 213
-    <li>Key Exchange Methods: curve25519-sha256@libssh.org, ecdh-sha2-nistp256, diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
-    <li>Hostkey Types: ssh-ed25519, ecdsa-sha2-nistp256, ecdsa-sha2-nistp384, ecdsa-sha2-nistp521, ssh-rsa, ssh-dss, ssh-rsa, ssh-dss
-    <li>Ciphers: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc (rijndael-cbc@lysator.liu.se), aes192-cbc, aes128-cbc, 3des-cbc, blowfish-cbc, none
+    <li>Developped in: C (72888 SLOC), C++ (563 SLOC), sh (189 SLOC), Python (9 SLOC)
+    <li>Number of functions: 421
+    <li>Key Exchange Methods: curve25519-sha256, ecdh-sha2-nistp256, diffie-hellman-group18-sha512, diffie-hellman-group16-sha512, diffie-hellman-group-exchange-sha256, diffie-hellman-group14-sha1, diffie-hellman-group1-sha1, diffie-hellman-group-exchange-sha1
+    <li>Hostkey Types: ssh-ed25519, ecdsa-sha2-nistp256, ecdsa-sha2-nistp384, ecdsa-sha2-nistp521, rsa-sha2-512,rsa-sha2-256, ssh-rsa, ssh-dss
+    <li>Ciphers: chacha20-poly1305, aes256-gcm@openssh.com, aes128-gcm@openssh.com, aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, 3des-cbc
     <li>Compression Schemes: zlib, zlib@openssh.com, none
-    <li>MAC hashes: hmac-sha1, none
+    <li>MAC hashes: hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha1-etm@openssh.com, hmac-sha2-512, hmac-sha2-256, hmac-sha1, none
     <li>Authentication: none, password, public-key, hostbased, keyboard-interactive, gssapi-with-mic
     <li>Channels: shell, exec (incl. SCP wrapper), direct-tcpip, subsystem, auth-agent-req@openssh.com
     <li>Global Requests: tcpip-forward, forwarded-tcpip
@@ -55,12 +55,13 @@ SUBTITLE(<a href="https://www.libssh.org/">libssh</a> 0.7.x)
     <li>Thread-safe: Just don't share sessions
     <li>Non-blocking: it can be used both blocking and non-blocking
     <li>Your sockets: the app hands over the socket, or uses libssh sockets
-    <li>OpenSSL or gcrypt: builds with either
+    <li>OpenSSL, mbedTLS or gcrypt
     <li>Client and server support
-    <li>SSHv2 and SSHv1 protocol support
+    <li>SSHv2 protocol support
     <li>Supports Linux, UNIX, BSD, Solaris, OS/2 and Windows
     <li>Automated test cases with nightly tests
     <li>Event model based on poll(2), or a poll(2)-emulation.
+    <li>FIPS 140-2 compatibility
 </ul>
 
 SUBTITLE(Feature by feature)
@@ -102,9 +103,19 @@ SUBTITLE(Feature by feature)
             <td>yes</td>
         </tr>
         <tr>
-            <td>Automated test cases with nightly tests</td>
-            <td>no (tests available)</td>
+            <td>Certificate support</td>
+            <td>no</td>
             <td>yes</td>
+        </tr>
+        <tr>
+            <td>FIPS 140-2 compliant</td>
+            <td>no</td>
+            <td>yes</td>
+        </tr>
+        <tr>
+            <td>Continues Integration</td>
+            <td>Just compile tests</td>
+            <td>Fully featured testsuite including OpenSSH and dropbear client/server testing</td>
         </tr>
         <tr>
             <td>Stable API</td>
@@ -133,11 +144,6 @@ SUBTITLE(Feature by feature)
         </tr>
         <tr>
             <td>Tutorial</td>
-            <td>no</td>
-            <td>yes</td>
-        </tr>
-        <tr>
-            <td>SSHv1 support</td>
             <td>no</td>
             <td>yes</td>
         </tr>
