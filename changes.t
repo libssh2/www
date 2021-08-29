@@ -8,6 +8,59 @@ HEAD(libssh2)
 TITLE(Changelog)
 BOXTOP
 
+<a name="1.10.0"></a>
+SUBTITLE(Version 1.10.0 - August 29 2021)
+<p> <a href="download/libssh2-1.10.0.tar.gz">libssh2 1.10.0</a> <a
+href="download/libssh2-1.10.0.tar.gz.asc">GPG sig</a>
+<p>
+<b>Enhancements and bugfixes</b>
+<ul>
+ <li> adds agent forwarding support
+ <li> adds OpenSSH Agent support on Windows
+ <li> adds ECDSA key support using the Mbed TLS backend
+ <li> adds ECDSA cert authentication
+ <li> adds diffie-hellman-group14-sha256, diffie-hellman-group16-sha512,
+   diffie-hellman-group18-sha512 key exchanges
+ <li> adds support for PKIX key reading when using ed25519 with OpenSSL
+ <li> adds support for EWOULDBLOCK on VMS systems
+ <li> adds support for building with OpenSSL 3
+ <li> adds support for using FIPS mode in OpenSSL
+ <li> adds debug symbols when building with MSVC
+ <li> adds support for building on the 3DS
+ <li> adds unicode build support on Windows
+ <li> restores os400 building
+ <li> increases min, max and opt Diffie Hellman group values
+ <li> improves portiablity of the make file
+ <li> improves timeout behavior with 2FA keyboard auth
+ <li> various improvements to the Wincng backend
+ <li> fixes reading parital packet replies when using an agent
+ <li> fixes Diffie Hellman key exchange on Windows 1903+ builds
+ <li> fixes building tests with older versions of OpenSSL
+ <li> fixes possible multiple definition warnings
+ <li> fixes potential cast issues _libssh2_ecdsa_key_get_curve_type()
+ <li> fixes potential use after free if libssh2_init() is called twice
+ <li> improved linking when using Mbed TLS
+ <li> fixes call to libssh2_crypto_exit() if crypto hasn't been initialized
+ <li> fixes crash when loading public keys with no id
+ <li> fixes possible out of bounds read when exchanging keys
+ <li> fixes possible out of bounds read when reading packets
+ <li> fixes possible out of bounds read when opening an X11 connection
+ <li> fixes possible out of bounds read when ecdh host keys
+ <li> fixes possible hang when trying to read a disconnected socket
+ <li> fixes a crash when using the delayed compression option
+ <li> fixes read error with large known host entries
+ <li> fixes various warnings
+ <li> fixes various small memory leaks
+ <li> improved error handling, various detailed errors will now be reported
+ <li> builds are now using OSS-Fuzz
+ <li> builds now use autoreconf instead of a custom build script
+ <li> cmake now respects install directory
+ <li> improved CI backend
+ <li> updated HACKING-CRYPTO documentation
+ <li> use markdown file extensions
+ <li> improved unit tests
+</ul>
+
 <a name="1.9.0"></a>
 SUBTITLE(Version 1.9.0 - June 20 2019)
 <p> <a href="download/libssh2-1.9.0.tar.gz">libssh2 1.9.0</a> <a
