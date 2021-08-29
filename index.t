@@ -88,7 +88,7 @@ SUBTITLE(Development)
 
 <ul>
 <li> The <a
-href="https://cool.haxx.se/mailman/listinfo/libssh2-devel">libssh2-devel
+href="https://lists.haxx.se/listinfo/libssh2-devel">libssh2-devel
 mailing list</a>
 
 </ul>
