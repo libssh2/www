@@ -91,11 +91,6 @@ SUBTITLE(Development)
 href="https://cool.haxx.se/mailman/listinfo/libssh2-devel">libssh2-devel
 mailing list</a>
 
-<li> Subscribe to <a
-href="https://cool.haxx.se/mailman/listinfo/libssh2-changes">libssh2-changes</a>
-to get a mail for every git push made to the master repo.
-
-<li> <a href="https://web.archive.org/web/20160315194208/gitstats.josefsson.org/libssh2/">Simon's git stats</a>
 </ul>
 
 BOXBOT
