@@ -78,8 +78,6 @@ SUBTITLE(Support)
   about how to use libssh2 is the <a href="mail.cgi">libssh2-devel mailing
   list</a>.
 
-<li> <b>IRC</b>: irc.freenode.org #libssh2
-
 <li> <b>Bugs:</b> <a href="https://github.com/libssh2/libssh2/issues">github issue tracker</a>
 
 </ul>
