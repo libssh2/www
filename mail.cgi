@@ -87,7 +87,7 @@ archive(-1);
 
 print <<MOO
 
-<p> <a href="https://cool.haxx.se/mailman/listinfo/libssh2-devel">subscribe
+<p> <a href="https://lists.haxx.se/listinfo/libssh2-devel">subscribe
  here</a>.
 
 <p> Other archives of this list:
