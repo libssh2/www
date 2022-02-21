@@ -79,7 +79,13 @@ print <<END;
 <div class=title align=left> libssh2 Mailing List Archives</div>
 <div class="box">
 
- Archived mails sent to the libssh2-devel mailing list.
+ Archived mails sent to the <a
+ href="https://lists.haxx.se/listinfo/libssh2-devel">libssh2-devel</a> mailing
+ list can be found <a
+ href="https://lists.haxx.se/pipermail/libssh2-devel/">here</a>.
+
+<p>
+ The old mailing list archive is here:
 
 END
 
@@ -89,14 +95,6 @@ print <<MOO
 
 <p> <a href="https://lists.haxx.se/listinfo/libssh2-devel">subscribe
  here</a>.
-
-<p> Other archives of this list:
-
-<a
-href="https://dir.gmane.org/gmane.network.ssh.libssh2.devel">gmane.org</a>
-
-<p>
- <b>Note:</b> the archive at libssh2.org was broken between September 11th and December 13th 2009!
 
 </div>
 
