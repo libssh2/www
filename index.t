@@ -36,19 +36,17 @@ SUBTITLE(Capabilities and Features)
  <li> <b>Thread-safe</b>: just don't share handles simultaneously
  <li> <b>Non-blocking</b>: it can be used both blocking and non-blocking
  <li> <b>Your sockets</b>: the app hands over the socket, calls select() etc.
- <li> <b>Crypto backends</b>: OpenSSL, libgcrypt, mbedTLS or WinCNG (native since Windows Vista): builds with either
+ <li> <b>Crypto backends</b>: OpenSSL, libgcrypt, mbedTLS, wolfSSL or WinCNG (native since Windows Vista): builds with either
 </ul>
 
 SUBTITLE(Download)
 <p>
 <ul>
 
-<li> The latest release: <a href="download/libssh2-1.9.0.tar.gz">libssh2
-1.9.0</a> from June 20th 2019
- <a href="download/libssh2-1.9.0.tar.gz.asc">[GPG sig]</a>
+<li> The latest release: <a href="download/libssh2-1.10.0.tar.gz">libssh2
+1.10.0</a> from August 29th 2021
+ <a href="download/libssh2-1.10.0.tar.gz.asc">[GPG sig]</a>
  <a href="/changes.html">Changes</a>
-
-<li> <a href="snapshots/">Daily snapshots</a>
 
 <li> <tt>git clone https://github.com/libssh2/libssh2.git</tt> <a href="https://github.com/libssh2/libssh2">browse the code repo</a>
 
@@ -78,8 +76,6 @@ SUBTITLE(Support)
   about how to use libssh2 is the <a href="mail.cgi">libssh2-devel mailing
   list</a>.
 
-<li> <b>IRC</b>: irc.freenode.org #libssh2
-
 <li> <b>Bugs:</b> <a href="https://github.com/libssh2/libssh2/issues">github issue tracker</a>
 
 </ul>
@@ -90,14 +86,9 @@ SUBTITLE(Development)
 
 <ul>
 <li> The <a
-href="https://cool.haxx.se/mailman/listinfo/libssh2-devel">libssh2-devel
+href="https://lists.haxx.se/listinfo/libssh2-devel">libssh2-devel
 mailing list</a>
 
-<li> Subscribe to <a
-href="https://cool.haxx.se/mailman/listinfo/libssh2-changes">libssh2-changes</a>
-to get a mail for every git push made to the master repo.
-
-<li> <a href="https://web.archive.org/web/20160315194208/gitstats.josefsson.org/libssh2/">Simon's git stats</a>
 </ul>
 
 BOXBOT
