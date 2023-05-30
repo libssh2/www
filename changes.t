@@ -8,6 +8,75 @@ HEAD(libssh2)
 TITLE(Changelog)
 BOXTOP
 
+<a name="1.11.0"></a>
+SUBTITLE(Version 1.11.0 - May 30 2023)
+<p>
+<b>Enhancements and bugfixes</b>
+<p>
+<ul>
+ <li> Adds support for encrypt-then-mac (ETM) MACs
+ <li> Adds support for AES-GCM crypto protocols
+ <li> Adds support for sk-ecdsa-sha2-nistp256 and sk-ssh-ed25519 keys
+ <li> Adds support for RSA certificate authentication
+ <li> Adds FIDO support with *_sk() functions
+ <li> Adds RSA-SHA2 key upgrading to OpenSSL, WinCNG, mbedTLS, OS400 backends
+ <li> Adds Agent Forwarding and libssh2_agent_sign()
+ <li> Adds support for Channel Signal message libssh2_channel_signal_ex()
+ <li> Adds support to get the user auth banner message libssh2_userauth_banner()
+ <li> Adds LIBSSH2_NO_{MD5, HMAC_RIPEMD, DSA, RSA, RSA_SHA1, ECDSA, ED25519,
+   AES_CBC, AES_CTR, BLOWFISH, RC4, CAST, 3DES} options
+ <li> Adds direct stream UNIX sockets with libssh2_channel_direct_streamlocal_ex()
+ <li> Adds wolfSSL support to CMake file
+ <li> Adds mbedTLS 3.x support
+ <li> Adds LibreSSL 3.5 support
+ <li> Adds support for CMake "unity" builds
+ <li> Adds CMake support for building shared and static libs in a single pass
+ <li> Adds symbol hiding support to CMake
+ <li> Adds support for libssh2.rc for all build tools
+ <li> Adds .zip, .tar.xz and .tar.bz2 release tarballs
+ <li> Enables ed25519 key support for LibreSSL 3.7.0 or higher
+ <li> Improves OpenSSL 1.1 and 3 compatibility
+ <li> Now requires OpenSSL 1.0.2 or newer
+ <li> Now requires CMake 3.1 or newer
+ <li> SFTP: Adds libssh2_sftp_open_ex_r() and libssh2_sftp_open_r() extended APIs
+ <li> SFTP: No longer has a packet limit when reading a directory
+ <li> SFTP: now parses attribute extensions if they exist
+ <li> SFTP: no longer will busy loop if SFTP fails to initialize
+ <li> SFTP: now clear various errors as expected
+ <li> SFTP: no longer skips files if the line buffer is too small
+ <li> SCP: add option to not quote paths
+ <li> SCP: Enables 64-bit offset support unconditionally
+ <li> Now skips leading \r and \n characters in banner_receive()
+ <li> Enables secure memory zeroing with all build tools on all platforms
+ <li> No longer logs SSH_MSG_REQUEST_FAILURE packets from keepalive
+ <li> Speed up base64 encoding by 7x
+ <li> Assert if there is an attempt to write a value that is too large
+ <li> WinCNG: fix memory leak in _libssh2_dh_secret()
+ <li> Added protection against possible null pointer dereferences
+ <li> Agent now handles overly large comment lengths
+ <li> Now ensure KEX replies don't include extra bytes
+ <li> Fixed possible buffer overflow when receiving SSH_MSG_USERAUTH_BANNER
+ <li> Fixed possible buffer overflow in keyboard interactive code path
+ <li> Fixed overlapping memcpy()
+ <li> Fixed Windows UWP builds
+ <li> Fixed DLL import name
+ <li> Renamed local RANDOM_PADDING macro to avoid unexpected define on Windows
+ <li> Support for building with gcc versions older than 8
+ <li> Improvements to CMake, Makefile, NMakefile, GNUmakefile, autoreconf files
+ <li> Restores ANSI C89 compliance
+ <li> Enabled new compiler warnings and fixed/silenced them
+ <li> Improved error messages
+ <li> Now uses CIFuzz
+ <li> Numerous minor code improvements
+ <li> Improvements to CI builds
+ <li> Improvements to unit tests
+ <li> Improvements to doc files
+ <li> Improvements to example files
+ <li> Removed "old gex" build option
+ <li> Removed no-encryption/no-mac builds
+ <li> Removed support for NetWare and Watcom wmake build files
+</ul>
+
 <a name="1.10.0"></a>
 SUBTITLE(Version 1.10.0 - August 29 2021)
 <p> <a href="download/libssh2-1.10.0.tar.gz">libssh2 1.10.0</a> <a

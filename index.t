@@ -42,16 +42,20 @@ SUBTITLE(Capabilities and Features)
 SUBTITLE(Download)
 <p>
 <ul>
+<b>libssh2 1.11.0</b>, released on <b>2023-05-30</b>. <a
+href="/changes.html">Changelog</a>
 
-<li> The latest release: <a href="download/libssh2-1.10.0.tar.gz">libssh2
-1.10.0</a> from August 29th 2021
- <a href="download/libssh2-1.10.0.tar.gz.asc">[GPG sig]</a>
- <a href="/changes.html">Changes</a>
-
-<li> <tt>git clone https://github.com/libssh2/libssh2.git</tt> <a href="https://github.com/libssh2/libssh2">browse the code repo</a>
-
-<li> <a href="download/">Older releases</a>
-
+<table><tr>
+<td><a href="download/libssh2-1.11.0.tar.gz">libssh2-1.11.0.tar.gz</a></td><td> <a href="download/libssh2-1.11.0.tar.gz.asc">[gpg]</a></td></tr>
+<tr><td>
+<a href="download/libssh2-1.11.0.tar.bz2">libssh2-1.11.0.tar.bz2</a></td><td><a href="download/libssh2-1.11.0.tar.bz2.asc">[gpg]</a></td></tr>
+<tr><td>
+<a href="download/libssh2-1.11.0.tar.xz">libssh2-1.11.0.tar.xz</a></td><td><a href="download/libssh2-1.11.0.tar.xz.asc">[gpg]</a>
+</td></tr>
+<tr><td>
+<a href="download/libssh2-1.11.0.zip">libssh2-1.11.0.zip</a></td><td><a href="download/libssh2-1.11.0.zip.asc">[gpg]</a>
+</td></tr>
+</table>
 </ul>
 
 SUBTITLE(Documentation)
@@ -63,6 +67,7 @@ SUBTITLE(Documentation)
 </ul>
 </td><td>
 <ul>
+<li> <a href="https://github.com/libssh2/libssh2">GitHub</a>
 <li> <a href="/examples/">Examples</a>
 <li> <a href="security.html">Security</a>
 </ul>
