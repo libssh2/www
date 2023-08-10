@@ -1,1 +1,8 @@
 RedirectMatch "^/.git" https://github.com/libssh2/libssh2
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteCond expr "! %{HTTP_HOST} -strmatch 'libssh2.org'"
+RewriteRule (.*) https://libssh2.org%{REQUEST_URI} [R=301,L]
+
+</IfModule>
