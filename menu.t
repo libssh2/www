@@ -1,4 +1,4 @@
-<a href="https://www.libssh2.org/">www.libssh2.org</a> |
+<a href="https://libssh2.org/">/</a> |
 <a href="/mail.cgi">Mailing list</a> |
 <a href="/docs.html">Docs</a> |
 <a href="/examples/">Examples</a> |
