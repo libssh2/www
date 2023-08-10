@@ -1,0 +1,1 @@
+RedirectMatch "^/.git" https://github.com/libssh2/libssh2
