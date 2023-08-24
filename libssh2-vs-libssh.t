@@ -13,24 +13,24 @@ BOXTOP
 
 <p>Here's an attempt to put some light on the differences between them.
 
-SUBTITLE(libssh2 1.7.0)
+SUBTITLE(libssh2 1.11.0)
 <p>
 <ul>
     <li>License: <a href="https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29">3-clause BSD License</a>
-    <li>Developped in: C (30218 SLOC), sh (1102 SLOC), Perl (65 SLOC), Lisp (33 SLOC), AWK (23 SLOC)
-    <li>NUmber of functions: 170
-    <li>Key Exchange Methods: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1, diffie-hellman-group-exchange-sha1, diffie-hellman-group-exchange-sha256
-    <li>Hostkey Types: ssh-rsa, ssh-dss
-    <li>Ciphers: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc (rijndael-cbc@lysator.liu.se), aes192-cbc, aes128-cbc, 3des-cbc, blowfish-cbc, cast128-cbc, arcfour, arcfour128, none
+    <li>Developped in: C (37562 SLOC), sh (1193 SLOC), Perl (779 SLOC), Lisp (33 SLOC), AWK (23 SLOC)
+    <li>Number of functions: 170
+    <li>Key Exchange Methods: diffie-hellman-group-exchange-sha256, diffie-hellman-group1-sha1, diffie-hellman-group14-sha1, diffie-hellman-group-exchange-sha1
+    <li>Hostkey Types: ssh-ed25519, ssh-ed25519-cert-v01@openssh.com, ecdsa-sha2-nistp521, ecdsa-sha2-nistp384, ecdsa-sha2-nistp256, ssh-rsa, ssh-dss
+    <li>Ciphers: aes256-gcm@openssh.com, aes128-gcm@openssh.com, aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc (rijndael-cbc@lysator.liu.se), aes192-cbc, aes128-cbc, 3des-cbc, blowfish-cbc, cast128-cbc, arcfour, arcfour128
     <li>Compression Schemes: zlib, zlib@openssh.com, none
-    <li>MAC hashes: hmac-sha2-256, hmac-sha2-512, hmac-sha1, hmac-sha1-96, hmac-md5, hmac-md5-96, hmac-ripemd160 (hmac-ripemd160@openssh.com), none
+    <li>MAC hashes: hmac-sha2-512, hmac-sha2-512-etm@openssh.com, hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha1, hmac-sha1-96, hmac-md5, hmac-md5-96, hmac-ripemd160 (hmac-ripemd160@openssh.com)
     <li>Authentication: none, password, public-key, hostbased, keyboard-interactive
     <li>Channels: shell, exec (incl. SCP wrapper), direct-tcpip, subsystem
     <li>Global Requests: tcpip-forward
     <li>Channel Requests: x11, pty, exit-signal, keepalive@openssh.com
     <li>Subsystems: sftp(version 3), publickey(version 2)
     <li>SFTP: statvfs@openssh.com, fstatvfs@openssh.com
-    <li>Thread-safe: just don't share handles simultaneously
+    <li>Thread-safe: just do not share handles simultaneously
     <li>Non-blocking: it can be used both blocking and non-blocking
     <li>Your sockets: the app hands over the socket, calls select() etc.
     <li>OpenSSL, Libgcrypt or WinCNG (native since Windows Vista): builds with either

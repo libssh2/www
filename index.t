@@ -16,16 +16,18 @@ BOXTOP
 <p>
 SUBTITLE(Capabilities and Features)
 <ul>
- <li> <b>Key Exchange Methods</b>: diffie-hellman-group1-sha1,
-  diffie-hellman-group14-sha1, diffie-hellman-group-exchange-sha1, diffie-hellman-group-exchange-sha256
- <li> <b>Hostkey Types</b>: ssh-rsa, ssh-dss 
- <li> <b>Ciphers</b>: aes256-ctr, aes192-ctr, aes128-ctr,
-  aes256-cbc (rijndael-cbc@lysator.liu.se), aes192-cbc,
-  aes128-cbc, 3des-cbc, blowfish-cbc, cast128-cbc, arcfour, arcfour128, none
+ <li> <b>Key Exchange Methods</b>: diffie-hellman-group-exchange-sha256,
+  diffie-hellman-group1-sha1, diffie-hellman-group14-sha1, diffie-hellman-group-exchange-sha1
+ <li> <b>Hostkey Types</b>: ssh-ed25519, ssh-ed25519-cert-v01@openssh.com, ecdsa-sha2-nistp521, ecdsa-sha2-nistp384, ecdsa-sha2-nistp256,
+  ssh-rsa, ssh-dss
+ <li> <b>Ciphers</b>: aes256-gcm@openssh.com, aes128-gcm@openssh.com,
+  aes256-ctr, aes192-ctr, aes128-ctr,
+  aes256-cbc (rijndael-cbc@lysator.liu.se), aes192-cbc, aes128-cbc,
+  3des-cbc, blowfish-cbc, cast128-cbc, arcfour, arcfour128
  <li> <b>Compression Schemes</b>: zlib, zlib@openssh.com, none
- <li> <b>MAC hashes</b>: hmac-sha2-256, hmac-sha2-512,
-  hmac-sha1, hmac-sha1-96, hmac-md5, hmac-md5-96,
-  hmac-ripemd160 (hmac-ripemd160@openssh.com), none
+ <li> <b>MAC hashes</b>: hmac-sha2-512, hmac-sha2-512-etm@openssh.com, hmac-sha2-256, hmac-sha2-256-etm@openssh.com,
+  hmac-sha1, hmac-sha1-96,
+  hmac-md5, hmac-md5-96, hmac-ripemd160 (hmac-ripemd160@openssh.com)
  <li> <b>Authentication</b>: none, password, public-key, hostbased,
   keyboard-interactive
  <li> <b>Channels</b>: shell, exec (incl. SCP wrapper), direct-tcpip, subsystem
@@ -33,7 +35,7 @@ SUBTITLE(Capabilities and Features)
  <li> <b>Channel Requests</b>: x11, pty, exit-signal, keepalive@openssh.com
  <li> <b>Subsystems</b>: sftp(version 3), publickey(version 2)
  <li> <b>SFTP</b>: statvfs@openssh.com, fstatvfs@openssh.com
- <li> <b>Thread-safe</b>: just don't share handles simultaneously
+ <li> <b>Thread-safe</b>: just do not share handles simultaneously
  <li> <b>Non-blocking</b>: it can be used both blocking and non-blocking
  <li> <b>Your sockets</b>: the app hands over the socket, calls select() etc.
  <li> <b>Crypto backends</b>: OpenSSL, libgcrypt, mbedTLS, wolfSSL or WinCNG (native since Windows Vista): builds with either
