@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-my $manpage="https://www.libssh2.org/";
+my $manpage="https://libssh2.org/";
 
 my $template="_example-templ.html";
 my $dir="../git-source/example";
@@ -99,4 +99,3 @@ for my $b (sort @basefiles) {
 }
 print EX "\n";
 close(EX);
-
