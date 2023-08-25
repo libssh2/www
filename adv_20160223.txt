@@ -35,7 +35,7 @@ libssh2 is used by many applications, but not always advertised as such!
 THE SOLUTION
 ------------
 
-libssh2 1.7.0 makes sure that there's a convertion done from number of bytes
+libssh2 1.7.0 makes sure that there's a conversion done from number of bytes
 to number of bits when the internal `_libssh2_bn_rand` function is called.
 
 A patch for this problem is available at:

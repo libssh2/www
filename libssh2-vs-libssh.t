@@ -17,7 +17,7 @@ SUBTITLE(libssh2 1.11.0)
 <p>
 <ul>
     <li>License: <a href="https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29">3-clause BSD License</a>
-    <li>Developped in: C (37562 SLOC), sh (1193 SLOC), Perl (779 SLOC), Lisp (33 SLOC), AWK (23 SLOC)
+    <li>Developed in: C (37562 SLOC), sh (1193 SLOC), Perl (779 SLOC), Lisp (33 SLOC), AWK (23 SLOC)
     <li>Number of functions: 184
     <li>Key Exchange Methods: diffie-hellman-group-exchange-sha256, diffie-hellman-group1-sha1, diffie-hellman-group14-sha1, diffie-hellman-group-exchange-sha1
     <li>Hostkey Types: ssh-ed25519, ssh-ed25519-cert-v01@openssh.com, ecdsa-sha2-nistp521, ecdsa-sha2-nistp384, ecdsa-sha2-nistp256, ssh-rsa, ssh-dss
@@ -93,12 +93,12 @@ SUBTITLE(Feature by feature)
             <td>yes</td>
         </tr>
         <tr>
-            <td>Eliptic Curve Key Exchange</td>
+            <td>Elliptic Curve Key Exchange</td>
             <td>yes</td>
             <td>yes</td>
         </tr>
         <tr>
-            <td>Eliptic Curve Hostkeys</td>
+            <td>Elliptic Curve Hostkeys</td>
             <td>yes</td>
             <td>yes</td>
         </tr>

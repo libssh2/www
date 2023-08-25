@@ -102,7 +102,7 @@ href="download/libssh2-1.10.0.tar.gz.asc">GPG sig</a>
  <li> improves portiablity of the make file
  <li> improves timeout behavior with 2FA keyboard auth
  <li> various improvements to the Wincng backend
- <li> fixes reading parital packet replies when using an agent
+ <li> fixes reading partial packet replies when using an agent
  <li> fixes Diffie Hellman key exchange on Windows 1903+ builds
  <li> fixes building tests with older versions of OpenSSL
  <li> fixes possible multiple definition warnings
@@ -235,7 +235,7 @@ href="download/libssh2-1.8.0.tar.gz.asc">GPG sig</a>
  <li> VMS: can't use %zd for off_t format
  <li> VMS: update vms/libssh2_config.h
  <li> windows: link with crypt32.lib
- <li> libssh2_channel_open: speeling error fixed in channel error message
+ <li> libssh2_channel_open: spelling error fixed in channel error message
  <li> msvc: fixed 14 compilation warnings
  <li> tests: HAVE_NETINET_IN_H was not defined correctly
  <li> openssl: add OpenSSL 1.1.0 compatibility
@@ -490,7 +490,7 @@ href="download/libssh2-1.4.0.tar.gz.asc">GPG sig</a> (653514 bytes)
 <b>Bug fixes:</b>
 <ul>
  <li> sftp-seek: clear EOF flag
- <li> userauth: Provide more informations if ssh pub key extraction fails
+ <li> userauth: Provide more information if ssh pub key extraction fails
  <li> ssh2_exec: skip error outputs for EAGAIN
  <li> LIBSSH2_SFTP_PACKET_MAXLEN: increase to 80000
  <li> knownhost_check(): Don't dereference ext if NULL is passed
@@ -585,7 +585,7 @@ href="download/libssh2-1.2.8.tar.gz.asc">GPG sig</a> (637707 bytes)
  <li> libssh2_knownhost_readfile.3: clarify return value
  <li> configure: stop using the deprecated AM_INIT_AUTOMAKE syntax
  <li> Fixed Win32 makefile which was now broken at resource build
- <li> kex_agree_hostkey: fix NULL pointer derefence
+ <li> kex_agree_hostkey: fix NULL pointer dereference
  <li> _libssh2_ntohu64: fix conversion from network bytes to uint64
  <li> ssize_t: proper typedef with MSVC compilers
  <li> zlib: Add debug tracing of zlib errors
