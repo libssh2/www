@@ -53,7 +53,7 @@ SUBTITLE(<a href="https://www.libssh.org/">libssh</a> 0.9.x)
     <li>Subsystems: sftp(version 3), OpenSSH Extensions
     <li>SFTP: statvfs@openssh.com, fstatvfs@openssh.com
     <li>Thread-safe: Just don't share sessions
-    <li>Non-blocking: it can be used both blocking and non-blocking
+    <li>Non-blocking: it can <b>not</b> be used entirely non-blocking.
     <li>Your sockets: the app hands over the socket, or uses libssh sockets
     <li>OpenSSL, mbedTLS or gcrypt
     <li>Client and server support
