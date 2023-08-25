@@ -22,6 +22,7 @@ CVES =						\
 all:	index.html mailhead.html cvs.html docs.html mailtop.html mailbot.html \
   indextop.html indexbot.html menu.html changes.html source.html \
   libssh2-vs-libssh.html license.html security.html $(CVES)
+	cd git-source && git pull
 	cd examples && make
 
 index.html: index.t $(MAINPARTS)
