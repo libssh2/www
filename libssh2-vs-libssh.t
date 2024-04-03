@@ -113,7 +113,7 @@ SUBTITLE(Feature by feature)
             <td>yes</td>
         </tr>
         <tr>
-            <td>Continues Integration</td>
+            <td>Continuous Integration</td>
             <td>Just compile tests</td>
             <td>Fully featured testsuite including OpenSSH and dropbear client/server testing</td>
         </tr>
