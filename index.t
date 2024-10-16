@@ -44,18 +44,18 @@ SUBTITLE(Capabilities and Features)
 SUBTITLE(Download)
 <p>
 <ul>
-<b>libssh2 1.11.0</b>, released on <b>2023-05-30</b>. <a
+<b>libssh2 1.11.1</b>, released on <b>2024-10-16</b>. <a
 href="/changes.html">Changelog</a>
 
 <table><tr>
-<td><a href="download/libssh2-1.11.0.tar.gz">libssh2-1.11.0.tar.gz</a></td><td> <a href="download/libssh2-1.11.0.tar.gz.asc">[gpg]</a></td></tr>
+<td><a href="download/libssh2-1.11.1.tar.gz">libssh2-1.11.1.tar.gz</a></td><td> <a href="download/libssh2-1.11.1.tar.gz.asc">[gpg]</a></td></tr>
 <tr><td>
-<a href="download/libssh2-1.11.0.tar.bz2">libssh2-1.11.0.tar.bz2</a></td><td><a href="download/libssh2-1.11.0.tar.bz2.asc">[gpg]</a></td></tr>
+<a href="download/libssh2-1.11.1.tar.bz2">libssh2-1.11.1.tar.bz2</a></td><td><a href="download/libssh2-1.11.1.tar.bz2.asc">[gpg]</a></td></tr>
 <tr><td>
-<a href="download/libssh2-1.11.0.tar.xz">libssh2-1.11.0.tar.xz</a></td><td><a href="download/libssh2-1.11.0.tar.xz.asc">[gpg]</a>
+<a href="download/libssh2-1.11.1.tar.xz">libssh2-1.11.1.tar.xz</a></td><td><a href="download/libssh2-1.11.1.tar.xz.asc">[gpg]</a>
 </td></tr>
 <tr><td>
-<a href="download/libssh2-1.11.0.zip">libssh2-1.11.0.zip</a></td><td><a href="download/libssh2-1.11.0.zip.asc">[gpg]</a>
+<a href="download/libssh2-1.11.1.zip">libssh2-1.11.1.zip</a></td><td><a href="download/libssh2-1.11.1.zip.asc">[gpg]</a>
 </td></tr>
 </table>
 </ul>
