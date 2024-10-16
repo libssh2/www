@@ -17,8 +17,8 @@ SUBTITLE(libssh2 1.11.1)
 <p>
 <ul>
     <li>License: <a href="https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29">3-clause BSD License</a>
-    <li>Developed in: C (37562 SLOC), sh (1193 SLOC), Perl (779 SLOC), Lisp (33 SLOC), AWK (23 SLOC)
-    <li>Number of functions: 184
+    <li>Developed in: C (41463 SLOC), sh (1252 SLOC), Perl (879 SLOC), Lisp (33 SLOC), AWK (23 SLOC)
+    <li>Number of functions: 186
     <li>Key Exchange Methods: diffie-hellman-group-exchange-sha256, diffie-hellman-group1-sha1, diffie-hellman-group14-sha1, diffie-hellman-group-exchange-sha1
     <li>Hostkey Types: ssh-ed25519, ssh-ed25519-cert-v01@openssh.com, ecdsa-sha2-nistp521, ecdsa-sha2-nistp384, ecdsa-sha2-nistp256, ssh-rsa, ssh-dss
     <li>Ciphers: chacha20-poly1305@openssh.com, aes256-gcm@openssh.com, aes128-gcm@openssh.com, aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc (rijndael-cbc@lysator.liu.se), aes192-cbc, aes128-cbc, 3des-cbc, blowfish-cbc, cast128-cbc, arcfour, arcfour128
