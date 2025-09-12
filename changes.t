@@ -358,7 +358,7 @@ SUBTITLE(Version 1.11.0 - May 30 2023)
 <a name="1.10.0"></a>
 SUBTITLE(Version 1.10.0 - August 29 2021)
 <p> <a href="download/libssh2-1.10.0.tar.gz">libssh2 1.10.0</a> <a
-href="download/libssh2-1.10.0.tar.gz.asc">GPG sig</a>
+href="download/libssh2-1.10.0.tar.gz.asc">PGP sig</a>
 <p>
 <b>Enhancements and bugfixes</b>
 <ul>
@@ -411,7 +411,7 @@ href="download/libssh2-1.10.0.tar.gz.asc">GPG sig</a>
 <a name="1.9.0"></a>
 SUBTITLE(Version 1.9.0 - June 20 2019)
 <p> <a href="download/libssh2-1.9.0.tar.gz">libssh2 1.9.0</a> <a
-href="download/libssh2-1.9.0.tar.gz.asc">GPG sig</a>
+href="download/libssh2-1.9.0.tar.gz.asc">PGP sig</a>
 <p>
 <b>Enhancements and bugfixes</b>
 <ul>
@@ -448,7 +448,7 @@ href="download/libssh2-1.9.0.tar.gz.asc">GPG sig</a>
 <a name="1.8.2"></a>
 SUBTITLE(Version 1.8.2 - March 25 2019)
 <p> <a href="download/libssh2-1.8.2.tar.gz">libssh2 1.8.2</a> <a
-href="download/libssh2-1.8.2.tar.gz.asc">GPG sig</a>
+href="download/libssh2-1.8.2.tar.gz.asc">PGP sig</a>
 <p>
 <b>Bug fixes:</b>
 <ul>
@@ -459,7 +459,7 @@ href="download/libssh2-1.8.2.tar.gz.asc">GPG sig</a>
 <a name="1.8.1"></a>
 SUBTITLE(Version 1.8.1 - March 18 2019)
 <p> <a href="download/libssh2-1.8.1.tar.gz">libssh2 1.8.1</a> <a
-href="download/libssh2-1.8.1.tar.gz.asc">GPG sig</a>
+href="download/libssh2-1.8.1.tar.gz.asc">PGP sig</a>
 <p>
 <b>Bug fixes:</b>
 <ul>
@@ -499,7 +499,7 @@ href="download/libssh2-1.8.1.tar.gz.asc">GPG sig</a>
 <a name="1.8.0"></a>
 SUBTITLE(Version 1.8.0 - October 25 2016)
 <p> <a href="download/libssh2-1.8.0.tar.gz">libssh2 1.8.0</a> <a
-href="download/libssh2-1.8.0.tar.gz.asc">GPG sig</a>
+href="download/libssh2-1.8.0.tar.gz.asc">PGP sig</a>
 <p>
 <b>Changes:</b>
 <ul>
@@ -526,7 +526,7 @@ href="download/libssh2-1.8.0.tar.gz.asc">GPG sig</a>
 <a name="1.7.0"></a>
 SUBTITLE(Version 1.7.0 - February 23 2016)
 <p> <a href="download/libssh2-1.7.0.tar.gz">libssh2 1.7.0</a> <a
-href="download/libssh2-1.7.0.tar.gz.asc">GPG sig</a>
+href="download/libssh2-1.7.0.tar.gz.asc">PGP sig</a>
 <p>
 <b>Changes:</b>
 <ul>
@@ -573,7 +573,7 @@ href="download/libssh2-1.7.0.tar.gz.asc">GPG sig</a>
 <a name="1.6.0"></a>
 SUBTITLE(Version 1.6.0 - June 12 2015)
 <p> <a href="download/libssh2-1.6.0.tar.gz">libssh2 1.6.0</a> <a
-href="download/libssh2-1.6.0.tar.gz.asc">GPG sig</a>
+href="download/libssh2-1.6.0.tar.gz.asc">PGP sig</a>
 <p>
 <b>Changes:</b>
 <ul>
@@ -610,7 +610,7 @@ href="download/libssh2-1.6.0.tar.gz.asc">GPG sig</a>
 <a name="1.5.0"></a>
 SUBTITLE(Version 1.5.0 - March 11 2015)
 <p> <a href="download/libssh2-1.5.0.tar.gz">libssh2 1.5.0</a> <a
-href="download/libssh2-1.5.0.tar.gz.asc">GPG sig</a>
+href="download/libssh2-1.5.0.tar.gz.asc">PGP sig</a>
 <p>
 <b>Changes:</b>
 <ul>
@@ -689,7 +689,7 @@ href="download/libssh2-1.5.0.tar.gz.asc">GPG sig</a>
 <a name="1.4.3"></a>
 SUBTITLE(Version 1.4.3 - November 27 2012)
 <p> <a href="download/libssh2-1.4.3.tar.gz">libssh2 1.4.3</a> <a
-href="download/libssh2-1.4.3.tar.gz.asc">GPG sig</a> (685712 bytes)
+href="download/libssh2-1.4.3.tar.gz.asc">PGP sig</a> (685712 bytes)
 <p>
 <b>Changes:</b>
 <ul>
@@ -714,7 +714,7 @@ href="download/libssh2-1.4.3.tar.gz.asc">GPG sig</a> (685712 bytes)
 <a name="1.4.2"></a>
 SUBTITLE(Version 1.4.2 - May 18 2012)
 <p> <a href="download/libssh2-1.4.2.tar.gz">libssh2 1.4.2</a> <a
-href="download/libssh2-1.4.2.tar.gz.asc">GPG sig</a> (679992 bytes)
+href="download/libssh2-1.4.2.tar.gz.asc">PGP sig</a> (679992 bytes)
 <p>
 <b>Bug fixes:</b>
 <ul>
@@ -731,7 +731,7 @@ href="download/libssh2-1.4.2.tar.gz.asc">GPG sig</a> (679992 bytes)
 <a name="1.4.1"></a>
 SUBTITLE(Version 1.4.1 - April 4 2012)
 <p> <a href="download/libssh2-1.4.1.tar.gz">libssh2 1.4.1</a> <a
-href="download/libssh2-1.4.1.tar.gz.asc">GPG sig</a> (658507 bytes)
+href="download/libssh2-1.4.1.tar.gz.asc">PGP sig</a> (658507 bytes)
 <p>
 <b>Bug fixes:</b>
 <ul>
@@ -755,7 +755,7 @@ href="download/libssh2-1.4.1.tar.gz.asc">GPG sig</a> (658507 bytes)
 <a name="1.4.0"></a>
 SUBTITLE(Version 1.4.0 - January 31 2012)
 <p> <a href="download/libssh2-1.4.0.tar.gz">libssh2 1.4.0</a> <a
-href="download/libssh2-1.4.0.tar.gz.asc">GPG sig</a> (653514 bytes)
+href="download/libssh2-1.4.0.tar.gz.asc">PGP sig</a> (653514 bytes)
 <p>
 <b>Changes:</b>
 <ul>
@@ -782,7 +782,7 @@ href="download/libssh2-1.4.0.tar.gz.asc">GPG sig</a> (653514 bytes)
 <a name="1.3.0"></a>
 SUBTITLE(Version 1.3.0 - September 6 2011)
 <p> <a href="download/libssh2-1.3.0.tar.gz">libssh2 1.3.0</a> <a
-href="download/libssh2-1.3.0.tar.gz.asc">GPG sig</a> (639262 bytes)
+href="download/libssh2-1.3.0.tar.gz.asc">PGP sig</a> (639262 bytes)
 <p>
 <b>Changes:</b>
 <ul>
@@ -800,7 +800,7 @@ href="download/libssh2-1.3.0.tar.gz.asc">GPG sig</a> (639262 bytes)
 <a name="1.2.9"></a>
 SUBTITLE(Version 1.2.9 - August 16 2011)
 <p> <a href="download/libssh2-1.2.9.tar.gz">libssh2 1.2.9</a> <a
-href="download/libssh2-1.2.9.tar.gz.asc">GPG sig</a> (642150 bytes)
+href="download/libssh2-1.2.9.tar.gz.asc">PGP sig</a> (642150 bytes)
 <p>
 <b>Changes:</b>
 <ul>
@@ -832,7 +832,7 @@ href="download/libssh2-1.2.9.tar.gz.asc">GPG sig</a> (642150 bytes)
 <a name="1.2.8"></a>
 SUBTITLE(Version 1.2.8 - April 5 2011)
 <p> <a href="download/libssh2-1.2.8.tar.gz">libssh2 1.2.8</a> <a
-href="download/libssh2-1.2.8.tar.gz.asc">GPG sig</a> (637707 bytes)
+href="download/libssh2-1.2.8.tar.gz.asc">PGP sig</a> (637707 bytes)
 <p>
 <b>Changes:</b>
 <ul>
@@ -873,7 +873,7 @@ href="download/libssh2-1.2.8.tar.gz.asc">GPG sig</a> (637707 bytes)
 <a name="1.2.7"></a>
 SUBTITLE(Version 1.2.7 - August 17 2010)
 <p> <a href="download/libssh2-1.2.7.tar.gz">libssh2 1.2.7</a> <a
-href="download/libssh2-1.2.7.tar.gz.asc">GPG sig</a> (583105 bytes)
+href="download/libssh2-1.2.7.tar.gz.asc">PGP sig</a> (583105 bytes)
 <p>
 <b>Changes:</b>
 <ul>
@@ -905,7 +905,7 @@ href="download/libssh2-1.2.7.tar.gz.asc">GPG sig</a> (583105 bytes)
 <a name="1.2.6"></a>
 SUBTITLE(Version 1.2.6 - June 10 2010)
 <p> <a href="download/libssh2-1.2.6.tar.gz">libssh2 1.2.6</a> <a
-href="download/libssh2-1.2.6.tar.gz.asc">GPG sig</a> (579590 bytes)
+href="download/libssh2-1.2.6.tar.gz.asc">PGP sig</a> (579590 bytes)
 <p>
 <b>Changes:</b>
 <ul>
@@ -934,7 +934,7 @@ href="download/libssh2-1.2.6.tar.gz.asc">GPG sig</a> (579590 bytes)
 <a name="1.2.5"></a>
 SUBTITLE(Version 1.2.5 - April 13 2010)
 <p> <a href="download/libssh2-1.2.5.tar.gz">libssh2 1.2.5</a> <a
-href="download/libssh2-1.2.5.tar.gz.asc">GPG sig</a> (559553 bytes)
+href="download/libssh2-1.2.5.tar.gz.asc">PGP sig</a> (559553 bytes)
 <p>
 <b>Changes:</b>
 <ul>
@@ -965,7 +965,7 @@ href="download/libssh2-1.2.5.tar.gz.asc">GPG sig</a> (559553 bytes)
 <a name="1.2.4"></a>
 SUBTITLE(Version 1.2.4 - February 13 2010)
 <p> <a href="download/libssh2-1.2.4.tar.gz">libssh2 1.2.4</a> <a
-href="download/libssh2-1.2.4.tar.gz.asc">GPG sig</a> (547675 bytes)
+href="download/libssh2-1.2.4.tar.gz.asc">PGP sig</a> (547675 bytes)
 <p>
 <b>Bug fixes:</b>
 <ul>
@@ -977,7 +977,7 @@ href="download/libssh2-1.2.4.tar.gz.asc">GPG sig</a> (547675 bytes)
 <a name="1.2.3"></a>
 SUBTITLE(Version 1.2.3 - February 3 2010)
 <p> <a href="download/libssh2-1.2.3.tar.gz">libssh2 1.2.3</a> <a
-href="download/libssh2-1.2.3.tar.gz.asc">GPG sig</a> (547652 bytes)
+href="download/libssh2-1.2.3.tar.gz.asc">PGP sig</a> (547652 bytes)
 <p>
 <b>Changes:</b>
 <ul>
@@ -1001,7 +1001,7 @@ href="download/libssh2-1.2.3.tar.gz.asc">GPG sig</a> (547652 bytes)
 <a name="1.2.2"></a>
 SUBTITLE(Version 1.2.2 - November 16 2009)
 <p> <a href="download/libssh2-1.2.2.tar.gz">libssh2 1.2.2</a> <a
-href="download/libssh2-1.2.2.tar.gz.asc">GPG sig</a> (535430 bytes)
+href="download/libssh2-1.2.2.tar.gz.asc">PGP sig</a> (535430 bytes)
 <p>
 <b>Changes:</b>
 <ul>
@@ -1017,7 +1017,7 @@ href="download/libssh2-1.2.2.tar.gz.asc">GPG sig</a> (535430 bytes)
 <a name="1.2.1"></a>
 SUBTITLE(Version 1.2.1 - September 28 2009)
 <p> <a href="download/libssh2-1.2.1.tar.gz">libssh2 1.2.1</a> <a
-href="download/libssh2-1.2.1.tar.gz.asc">GPG sig</a> (533302 bytes)
+href="download/libssh2-1.2.1.tar.gz.asc">PGP sig</a> (533302 bytes)
 <p>
 <b>Changes:</b>
 <ul>
@@ -1042,7 +1042,7 @@ href="download/libssh2-1.2.1.tar.gz.asc">GPG sig</a> (533302 bytes)
 SUBTITLE(Version 1.2 - August 10 2009)
 
 <p> <a href="download/libssh2-1.2.tar.gz">libssh2 1.2</a> <a
-href="download/libssh2-1.2.tar.gz.asc">GPG sig</a> (532299 bytes)
+href="download/libssh2-1.2.tar.gz.asc">PGP sig</a> (532299 bytes)
 <p>
 <b>Changes:</b>
 <ul>
@@ -1078,7 +1078,7 @@ href="download/libssh2-1.2.tar.gz.asc">GPG sig</a> (532299 bytes)
 SUBTITLE(Version 1.1 - April 2 2009)
 
 <p> <a href="download/libssh2-1.1.tar.gz">libssh2 1.1</a> <a
-href="download/libssh2-1.1.tar.gz.asc">GPG sig</a>
+href="download/libssh2-1.1.tar.gz.asc">PGP sig</a>
 
 <ul>
   <li> Downloads using SCP or SFTP are now significantly faster
