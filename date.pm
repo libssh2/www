@@ -64,7 +64,7 @@ sub MonthName {
 
 }
 
-# Return the month name of the index given, in english
+# Return the month name of the index given, in English
 sub MonthNameEng {
     my $num=$_[0];
 
